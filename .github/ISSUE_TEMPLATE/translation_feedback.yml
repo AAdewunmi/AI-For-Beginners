@@ -1,0 +1,74 @@
+name: "🌐 Translation Feedback"
+description: "Suggest improvements or submit translations for a language"
+title: "[Translation]: "
+labels: ["translations"]
+body:
+  - type: dropdown
+    id: language
+    attributes:
+      label: "Target Language"
+      options:
+        - Arabic (ar)
+        - Bengali (bn)
+        - Bulgarian (bg)
+        - Croatian (hr)
+        - Czech (cs)
+        - Danish (da)
+        - Dutch (nl)
+        - Estonian (et)
+        - Finnish (fi)
+        - French (fr)
+        - German (de)
+        - Greek (el)
+        - Hebrew (he)
+        - Hindi (hi)
+        - Hungarian (hu)
+        - Indonesian (id)
+        - Italian (it)
+        - Japanese (ja)
+        - Kannada (kn)
+        - Khmer (km)
+        - Korean (ko)
+        - Lithuanian (lt)
+        - Malay (ms)
+        - Malayalam (ml)
+        - Marathi (mr)
+        - Burmese (my)
+        - Nepali (ne)
+        - Nigerian Pidgin (pcm)
+        - Norwegian (no)
+        - Persian (fa)
+        - Polish (pl)
+        - Portuguese - Brazil (pt-BR)
+        - Portuguese - Portugal (pt-PT)
+        - Punjabi (pa)
+        - Romanian (ro)
+        - Russian (ru)
+        - Serbian (sr)
+        - Slovak (sk)
+        - Slovenian (sl)
+        - Spanish (es)
+        - Swahili (sw)
+        - Swedish (sv)
+        - Tamil (ta)
+        - Telugu (te)
+        - Thai (th)
+        - Tagalog (tl)
+        - Turkish (tr)
+        - Ukrainian (uk)
+        - Urdu (ur)
+        - Vietnamese (vi)
+        - Simplified Chinese (zh-CN)
+        - Traditional Chinese - Hong Kong (zh-HK)
+        - Traditional Chinese - Macao (zh-MO)
+        - Traditional Chinese - Taiwan (zh-TW)
+        - Other (please specify in details)
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: "Details"
+      description: "Specify the translation feedback, grammatical fixes, or new translation files you plan to submit."
+    validations:
+      required: true
