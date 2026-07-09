@@ -12,7 +12,7 @@
 
 # 初心者のための人工知能 カリキュラム
 
-|![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](../lessons/sketchnotes/ai-overview.png)|
+|![ Sketchnote by [(@girlie_mac)](https://twitter.com/girlie_mac) ](https://github.com/microsoft/AI-For-Beginners/raw/main/lessons/sketchnotes/ai-overview.png)|
 |:---:|
 | AI For Beginners - _Sketchnote by [@girlie_mac](https://twitter.com/girlie_mac)_ |
 
