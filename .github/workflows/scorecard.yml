@@ -32,7 +32,7 @@ jobs:
 
     steps:
       - name: "Checkout code"
-        uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+        uses: actions/checkout@v6
         with:
           persist-credentials: false
 
@@ -58,10 +58,18 @@ jobs:
 
       # Upload the results as artifacts (optional). Commenting out will disable uploads of run results in SARIF
       # format to the repository Actions tab.
+      - name: "Show SARIF file"
+        run: |
+          echo "SARIF file listing:"
+          ls -la results.sarif || true
+          echo "SARIF file type (if available):"
+          file results.sarif || true
+
       - name: "Upload artifact"
-        uses: actions/upload-artifact@97a0fba1372883ab732affbe8f94b823f91727db # v3.pre.node20
+        uses: actions/upload-artifact@v7
         with:
-          name: SARIF file
+          # Use a simple, lowercase artifact name without spaces to avoid API validation
+          name: results-sarif
           path: results.sarif
           retention-days: 5
 
