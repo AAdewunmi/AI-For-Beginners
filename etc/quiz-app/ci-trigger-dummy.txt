@@ -1,6 +1,0 @@
-CI trigger dummy file
-
-This file was added to trigger CI for npm_and_yarn in /etc/quiz-app.
-
-Commit: for # npm_and_yarn in /etc/quiz-app for on-headers - Update #1453585651 #66
-Date: 2026-07-09
