@@ -58,10 +58,18 @@ jobs:
 
       # Upload the results as artifacts (optional). Commenting out will disable uploads of run results in SARIF
       # format to the repository Actions tab.
+      - name: "Show SARIF file"
+        run: |
+          echo "SARIF file listing:"
+          ls -la results.sarif || true
+          echo "SARIF file type (if available):"
+          file results.sarif || true
+
       - name: "Upload artifact"
         uses: actions/upload-artifact@v7
         with:
-          name: sarif-file
+          # Use a simple, lowercase artifact name without spaces to avoid API validation
+          name: results-sarif
           path: results.sarif
           retention-days: 5
 
