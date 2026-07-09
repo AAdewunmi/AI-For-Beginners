@@ -6,7 +6,7 @@
 
 The quest for artificial intelligence is based on a search for knowledge, to make sense of the world similar to how humans do. But how can you go about doing this?
 
-## [Pre-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/102)
+## [Pre-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/3)
 
 In the early days of AI, the top-down approach to creating intelligent systems (discussed in the previous lesson) was popular. The idea was to extract the knowledge from people into some machine-readable form, and then use it to automatically solve problems. This approach was based on two big ideas:
 
@@ -58,7 +58,7 @@ Untyped-Language | doesn't have | type definitions
 
 > ✅ Think how triplets can be used to represent other types of knowledge.
 
-2. **Hierarchical representations** emphasize the fact that we often create a hierarchy of objects inside our head. For example, we know that canary is a bird, and all birds have wings. We also have some idea about what colour canary usually is, and what is their flight speed.
+2. **Hierarchical representations** emphasize the fact that we often create a hierarchy of objects inside our head. For example, we know that canary is a bird, and all birds have wings. We also have some idea about what colour a canary usually is, and what is their flight speed.
 
    - **Frame representation** is based on representing each object or class of objects as a **frame** which contains **slots**. Slots have possible default values, value restrictions, or stored procedures that can be called to obtain the value of a slot. All frames form a hierarchy similar to an object hierarchy in object-oriented programming languages.
    - **Scenarios** are special kind of frames that represent complex situations that can unfold in time.
@@ -169,7 +169,7 @@ In the semantic web, all representations are based on triplets. Each object and 
 <img src="images/triplet.png" width="30%"/>
 
 ```
-http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 13, 2007”
+http://github.com/microsoft/ai-for-beginners http://www.example.com/terms/creation-date “Jan 1, 2022”
 http://github.com/microsoft/ai-for-beginners http://purl.org/dc/elements/1.1/creator http://soshnikov.com
 ```
 
@@ -232,7 +232,7 @@ Nowadays, AI is often considered to be a synonym for *Machine Learning* or *Neur
 
 In the Family Ontology notebook associated to this lesson, there is an opportunity to experiment with other family relations. Try to discover new connections between people in the family tree.
 
-## [Post-lecture quiz](https://red-field-0a6ddfd03.1.azurestaticapps.net/quiz/202)
+## [Post-lecture quiz](https://ff-quizzes.netlify.app/en/ai/quiz/4)
 
 ## Review & Self Study
 
