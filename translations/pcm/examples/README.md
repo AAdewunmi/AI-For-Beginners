@@ -1,38 +1,38 @@
 # Beginner-Friendly AI Examples
 
-Welcome! Dis directory get simple, standalone examples wey go help you start wit AI and machine learning. Each example dey designed make e easy for beginners wit detailed comments and step-by-step explanation.
+Welcome! Dis directory get simple, standalone examples to help you start wit AI and machine learning. Each example na beginner-friendly wit detailed comments and step-by-step explanations.
 
 ## 📚 Examples Overview
 
 | Example | Description | Difficulty | Prerequisites |
 |---------|-------------|------------|---------------|
-| [Hello AI World](../../../examples/01-hello-ai-world.py) | Your first AI program - simple pattern recognition | ⭐ Beginner | Python basics |
-| [Simple Neural Network](../../../examples/02-simple-neural-network.py) | Build a neural network from scratch | ⭐⭐ Beginner+ | Python, basic math |
-| [Image Classifier](./03-image-classifier.ipynb) | Classify images wit pre-trained model | ⭐⭐ Beginner+ | Python, numpy |
-| [Text Sentiment](../../../examples/04-text-sentiment.py) | Analyze text sentiment (positive/negative) | ⭐⭐ Beginner+ | Python |
+| [Hello AI World](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/01-hello-ai-world.py) | Your first AI program - simple pattern recognition | ⭐ Beginner | Python basics |
+| [Simple Neural Network](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/02-simple-neural-network.py) | Build a neural network from scratch | ⭐⭐ Beginner+ | Python, basic math |
+| [Image Classifier](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/03-image-classifier.ipynb) | Classify images with a pre-trained model | ⭐⭐ Beginner+ | Python, numpy |
+| [Text Sentiment](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/04-text-sentiment.py) | Analyze text sentiment (positive/negative) | ⭐⭐ Beginner+ | Python |
 
 ## 🚀 Getting Started
 
 ### Prerequisites
 
-Make sure say you don install Python (3.8 or higher dey recommended). Install di required packages:
+Make sure say you get Python installed (3.8 or higher dey recommended). Install di necessary packages:
 
 ```bash
-# For Python scripts
+# For Python skrip dem
 pip install numpy
 
 # For Jupyter notebooks (image classifier)
 pip install jupyter numpy pillow tensorflow
 ```
 
-Or use di conda environment wey dey di main curriculum:
+Or use di conda environment from di main curriculum:
 
 ```bash
 conda env create --name ai4beg --file ../environment.yml
 conda activate ai4beg
 ```
 
-### Running di Examples
+### Running the Examples
 
 **For Python scripts (.py files):**
 ```bash
@@ -46,23 +46,23 @@ jupyter notebook 03-image-classifier.ipynb
 
 ## 📖 Learning Path
 
-We recommend say you follow di examples one by one:
+We recommend sey make you follow di examples in order:
 
 1. **Start wit "Hello AI World"** - Learn di basics of pattern recognition
 2. **Build a Simple Neural Network** - Understand how neural networks dey work
-3. **Try di Image Classifier** - See AI in action wit real images
+3. **Try di Image Classifier** - See AI for action wit real images
 4. **Analyze Text Sentiment** - Explore natural language processing
 
 ## 💡 Tips for Beginners
 
-- **Read di code comments well well** - Dem dey explain wetin each line dey do
+- **Read di code comments well-well** - Dem dey explain wetin each line dey do
 - **Experiment!** - Try change values and see wetin go happen
-- **No worry if you no understand everything** - Learning dey take time
+- **No worry if you no understand everything** - Learning go take time
 - **Ask questions** - Use di [Discussion board](https://github.com/microsoft/AI-For-Beginners/discussions)
 
 ## 🔗 Next Steps
 
-After you don complete dis examples, explore di full curriculum:
+After you finish dem examples, explore di full curriculum:
 - [Introduction to AI](../lessons/1-Intro/README.md)
 - [Neural Networks](../lessons/3-NeuralNetworks/README.md)
 - [Computer Vision](../lessons/4-ComputerVision/README.md)
@@ -70,18 +70,18 @@ After you don complete dis examples, explore di full curriculum:
 
 ## 🤝 Contributing
 
-You find dis examples helpful? Help us make dem better:
-- Report issues or suggest improvements
+You find dem examples helpful? Help us make dem beta:
+- Report any wahala or suggest how to improve am
 - Add more examples for beginners
-- Improve documentation and comments
+- Improve di documentation and comments
 
 ---
 
-*Remember: Every expert na once beginner. Enjoy your learning! 🎓*
+*Remember: Every expert bin once na beginner. Happy learning! 🎓*
 
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Disclaimer**:  
-Dis dokyument don use AI transle-shon service [Co-op Translator](https://github.com/Azure/co-op-translator) do di transle-shon. Even as we dey try make am correct, abeg sabi say transle-shon wey machine do fit get mistake or no dey accurate well. Di original dokyument for im native language na di one wey correct pass. For important mata, e good make una use professional human transle-shon. We no go fit take blame for any misunderstanding or wrong interpretation wey fit happen because una use dis transle-shon.
+**Disclaimer**:
+Dis document don translate wit AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). Even tho we dey try make am correct, abeg make you know say automated translation fit get errors or mistakes. Di original document for dia own language na im be di correct source. For important info, make person wey sabi human translation do am. We no go responsible for any misunderstanding or wrong understanding wey fit happen because of dis translation.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

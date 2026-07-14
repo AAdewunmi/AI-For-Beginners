@@ -1,27 +1,27 @@
-# Príklady AI pre začiatočníkov
+# Príklady AI vhodné pre začiatočníkov
 
-Vitajte! Tento adresár obsahuje jednoduché, samostatné príklady, ktoré vám pomôžu začať s AI a strojovým učením. Každý príklad je navrhnutý tak, aby bol priateľský pre začiatočníkov, s podrobnými komentármi a krok za krokom vysvetleniami.
+Vitajte! Tento adresár obsahuje jednoduché, samostatné príklady, ktoré vám pomôžu začať s AI a strojovým učením. Každý príklad je navrhnutý tak, aby bol priateľský k začiatočníkom s podrobnými komentármi a krok za krokom vysvetleniami.
 
 ## 📚 Prehľad príkladov
 
 | Príklad | Popis | Obtiažnosť | Predpoklady |
 |---------|-------------|------------|---------------|
-| [Hello AI World](../../../examples/01-hello-ai-world.py) | Váš prvý AI program - jednoduché rozpoznávanie vzorov | ⭐ Začiatočník | Základy Pythonu |
-| [Jednoduchá neurónová sieť](../../../examples/02-simple-neural-network.py) | Vytvorte neurónovú sieť od základov | ⭐⭐ Začiatočník+ | Python, základná matematika |
-| [Klasifikátor obrázkov](./03-image-classifier.ipynb) | Klasifikujte obrázky pomocou predtrénovaného modelu | ⭐⭐ Začiatočník+ | Python, numpy |
-| [Analýza sentimentu textu](../../../examples/04-text-sentiment.py) | Analyzujte sentiment textu (pozitívny/negatívny) | ⭐⭐ Začiatočník+ | Python |
+| [Hello AI World](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/01-hello-ai-world.py) | Váš prvý AI program – jednoduché rozpoznávanie vzorov | ⭐ Začiatočník | Základy Pythonu |
+| [Simple Neural Network](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/02-simple-neural-network.py) | Vytvorte neurónovú sieť od základov | ⭐⭐ Začiatočník+ | Python, základná matematika |
+| [Image Classifier](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/03-image-classifier.ipynb) | Klasifikujte obrázky s predtrénovaným modelom | ⭐⭐ Začiatočník+ | Python, numpy |
+| [Text Sentiment](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/04-text-sentiment.py) | Analyzujte sentiment textu (pozitívny/negatívny) | ⭐⭐ Začiatočník+ | Python |
 
 ## 🚀 Začíname
 
 ### Predpoklady
 
-Uistite sa, že máte nainštalovaný Python (odporúča sa verzia 3.8 alebo vyššia). Nainštalujte potrebné balíčky:
+Uistite sa, že máte nainštalovaný Python (odporúčaná verzia 3.8 alebo novšia). Nainštalujte potrebné balíčky:
 
 ```bash
-# For Python scripts
+# Pre Python skripty
 pip install numpy
 
-# For Jupyter notebooks (image classifier)
+# Pre Jupyter notebooky (klasifikátor obrázkov)
 pip install jupyter numpy pillow tensorflow
 ```
 
@@ -32,7 +32,7 @@ conda env create --name ai4beg --file ../environment.yml
 conda activate ai4beg
 ```
 
-### Spustenie príkladov
+### Spúšťanie príkladov
 
 **Pre Python skripty (.py súbory):**
 ```bash
@@ -46,19 +46,19 @@ jupyter notebook 03-image-classifier.ipynb
 
 ## 📖 Učebná cesta
 
-Odporúčame postupovať podľa príkladov v tomto poradí:
+Odporúčame nasledovať príklady v tomto poradí:
 
-1. **Začnite s "Hello AI World"** - Naučte sa základy rozpoznávania vzorov
-2. **Vytvorte jednoduchú neurónovú sieť** - Pochopte, ako fungujú neurónové siete
-3. **Vyskúšajte klasifikátor obrázkov** - Pozrite sa na AI v akcii s reálnymi obrázkami
-4. **Analyzujte sentiment textu** - Preskúmajte spracovanie prirodzeného jazyka
+1. **Začnite s „Hello AI World“** – Naučte sa základy rozpoznávania vzorov
+2. **Postavte jednoduchú neurónovú sieť** – Pochopte, ako fungujú neurónové siete
+3. **Vyskúšajte klasifikátor obrázkov** – Pozrite si AI v akcii s reálnymi obrázkami
+4. **Analyzujte sentiment textu** – Preskúmajte spracovanie prirodzeného jazyka
 
 ## 💡 Tipy pre začiatočníkov
 
-- **Pozorne čítajte komentáre v kóde** - Vysvetľujú, čo robí každý riadok
-- **Experimentujte!** - Skúste meniť hodnoty a sledujte, čo sa stane
-- **Netrápte sa, ak všetkému nerozumiete** - Učenie si vyžaduje čas
-- **Pýtajte sa otázky** - Použite [diskusné fórum](https://github.com/microsoft/AI-For-Beginners/discussions)
+- **Starostlivo čítajte komentáre v kóde** – Vysvetľujú, čo každý riadok robí
+- **Experimentujte!** – Skúšajte meniť hodnoty a sledujte, čo sa stane
+- **Nestrašte sa, ak všetko hneď nepochopíte** – Učenie si vyžaduje čas
+- **Pýtajte sa otázky** – Použite [diskusnú platformu](https://github.com/microsoft/AI-For-Beginners/discussions)
 
 ## 🔗 Ďalšie kroky
 
@@ -68,18 +68,20 @@ Po dokončení týchto príkladov preskúmajte celý kurz:
 - [Počítačové videnie](../lessons/4-ComputerVision/README.md)
 - [Spracovanie prirodzeného jazyka](../lessons/5-NLP/README.md)
 
-## 🤝 Prispievanie
+## 🤝 Príspevky
 
-Považujete tieto príklady za užitočné? Pomôžte nám ich zlepšiť:
-- Nahláste problémy alebo navrhnite vylepšenia
-- Pridajte ďalšie príklady pre začiatočníkov
+Páčia sa vám tieto príklady? Pomôžte nám ich zlepšiť:
+- Nahláste chyby alebo navrhnite vylepšenia
+- Pridajte viac príkladov pre začiatočníkov
 - Zlepšite dokumentáciu a komentáre
 
 ---
 
-*Pamätajte: Každý odborník bol kedysi začiatočníkom. Šťastné učenie! 🎓*
+*Pamätajte: Každý expert bol raz začiatočník. Šťastné učenie! 🎓*
 
 ---
 
-**Upozornenie**:  
-Tento dokument bol preložený pomocou služby AI prekladu [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, prosím, berte na vedomie, že automatizované preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho rodnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za žiadne nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Vyhlásenie o zodpovednosti**:
+Tento dokument bol preložený pomocou AI prekladateľskej služby [Co-op Translator](https://github.com/Azure/co-op-translator). Hoci sa snažíme o presnosť, vezmite prosím na vedomie, že automatické preklady môžu obsahovať chyby alebo nepresnosti. Pôvodný dokument v jeho natívnom jazyku by mal byť považovaný za autoritatívny zdroj. Pre kritické informácie sa odporúča profesionálny ľudský preklad. Nie sme zodpovední za žiadne nedorozumenia alebo nesprávne interpretácie vyplývajúce z použitia tohto prekladu.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

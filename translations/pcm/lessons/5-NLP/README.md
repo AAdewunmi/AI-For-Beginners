@@ -2,33 +2,33 @@
 
 ![Summary of NLP tasks in a doodle](../../../../translated_images/pcm/ai-nlp.b22dcb8ca4707cea.webp)
 
-For dis section, we go focus on how Neural Networks fit handle tasks wey relate to **Natural Language Processing (NLP)**. Plenty NLP problems dey wey we wan make computer sabi solve:
+For dis section, we go focus on how to take use Neural Networks do tasks wey get to do with **Natural Language Processing (NLP)**. Plenty NLP problems dey we want make computer fit solve dem:
 
-* **Text classification** na one kind classification problem wey concern text sequences. Example na to classify e-mail messages as spam or no-spam, or to categorize articles as sport, business, politics, etc. Plus, when we dey develop chat bots, we go need understand wetin user wan talk -- for dis case, we dey deal with **intent classification**. Many times, for intent classification, we go need handle plenty categories.
-* **Sentiment analysis** na one kind regression problem, wey we go need give number (sentiment) wey show how positive/negative the meaning of one sentence be. One advanced version of sentiment analysis na **aspect-based sentiment analysis** (ABSA), wey sentiment no dey for the whole sentence, but for different parts of am (aspects), e.g. *For dis restaurant, I like the food, but the atmosphere bad well well*.
-* **Named Entity Recognition** (NER) na the problem of extracting certain entities from text. For example, we fit need understand say for the phrase *I need to fly to Paris tomorrow* the word *tomorrow* mean DATE, and *Paris* na LOCATION.  
-* **Keyword extraction** dey similar to NER, but we go need extract words wey dey important to the meaning of the sentence automatically, without pre-training for specific entity types.
-* **Text clustering** fit help when we wan group similar sentences together, e.g., similar requests for technical support conversations.
-* **Question answering** na the ability of one model to answer specific question. The model go receive one text passage and one question as inputs, and e go need provide the place for the text wey the answer to the question dey (or, sometimes, generate the answer text).
-* **Text Generation** na the ability of one model to generate new text. E fit be classification task wey dey predict next letter/word based on some *text prompt*. Advanced text generation models, like GPT-3, fit solve other NLP tasks like classification using one technique wey dem dey call [prompt programming](https://towardsdatascience.com/software-3-0-how-prompting-will-change-the-rules-of-the-game-a982fbfe1e0) or [prompt engineering](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29)
-* **Text summarization** na technique wey we wan make computer "read" long text and summarize am for few sentences.
-* **Machine translation** fit be like combination of text understanding for one language, and text generation for another one.
+* **Text classification** na typical classification wahala wey concern text sequence. Examples na to classify e-mail messages as spam or no-spam, or to categorize articles as sport, business, politics, etc. Also, for making chat bots, we dey need to understand wetin person dey try talk -- for this case, na **intent classification** we dey do. Plenty times, for intent classification, we get plenty categories wey we need handle.
+* **Sentiment analysis** na typical regression wahala, where we need put number (sentiment) wey match how positive/negative meaning of sentence be. One advanced kind sentiment analysis na **aspect-based sentiment analysis** (ABSA), where we no dey put sentiment for whole sentence but for different parts (aspects), e.g. *For this restaurant, I like the cuisine, but the atmosphere no too good*.
+* **Named Entity Recognition** (NER) mean say you go find some entities for text. For example, we go need understand say for the phrase *I need to fly to Paris tomorrow* the word *tomorrow* na DATE, and *Paris* be LOCATION.  
+* **Keyword extraction** similar to NER, but na words wey important to sentence meaning we dey find automatically, without pre-training for particular entity types.
+* **Text clustering** fit help when we want group similar sentences together, like similar requests for technical support talk.
+* **Question answering** mean say model fit answer specific question. The model go receive text passage plus question, and e need show place for text wey answer dey (or sometimes, generate answer text).
+* **Text Generation** mean say model fit generate new text. E fit be classification task wey dey predict next letter/word based on some *text prompt*. Advanced text generation models, like GPT-3, fit solve other NLP tasks like classification using technique wey dem dey call [prompt programming](https://towardsdatascience.com/software-3-0-how-prompting-will-change-the-rules-of-the-game-a982fbfe1e0) or [prompt engineering](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29)
+* **Text summarization** na technique wey we want make computer "read" long text and summarize am inside few sentences.
+* **Machine translation** fit be combination of understanding text for one language and generating text for another language.
 
-Before before, most NLP tasks dey solved using traditional methods like grammars. For example, for machine translation, parsers dey transform initial sentence into syntax tree, then higher level semantic structures go dey extracted to represent the meaning of the sentence, and based on dis meaning and grammar of the target language, dem go generate the result. Nowadays, many NLP tasks dey solved better with neural networks.
+Before before, most NLP tasks dem dey solve am with traditional methods like grammar. For example, for machine translation, dem dey use parsers to turn sentence into syntax tree, then dem dey find better semantic structures to represent meaning of sentence, and based on this meaning and grammar of language, the result dey generated. Nowadays, plenty NLP tasks better to solve with neural networks.
 
-> Many classical NLP methods dey implemented for [Natural Language Processing Toolkit (NLTK)](https://www.nltk.org) Python library. One better [NLTK Book](https://www.nltk.org/book/) dey online wey dey cover how different NLP tasks fit dey solved using NLTK.
+> Plenty classical NLP methods dey inside [Natural Language Processing Toolkit (NLTK)](https://www.nltk.org) Python library. Good [NLTK Book](https://www.nltk.org/book/) dey online wey talk how to solve different NLP tasks with NLTK.
 
-For dis course, we go mostly focus on how to use Neural Networks for NLP, and we go use NLTK where e dey necessary.
+For our course, we go mainly use Neural Networks for NLP, and we go use NLTK where e need.
 
-We don already learn how to use neural networks to handle tabular data and images. The main difference between those types of data and text be say text na sequence wey get variable length, while the input size for images dey known before. While convolutional networks fit extract patterns from input data, patterns for text dey more complex. E.g., we fit get negation wey dey separate from the subject by plenty words (e.g. *I no like oranges*, vs. *I no like those big colorful tasty oranges*), and we still suppose interpret am as one pattern. So, to handle language, we need introduce new neural network types, like *recurrent networks* and *transformers*.
+We don already learn about how to use neural networks to handle tabular data and images. Main difference between those data and text na say text na variable length sequence, but input size for images dey known before. Convolutional networks fit find patterns for input data, but patterns for text more complex. Eg., negation fit dey far from subject for many words (eg. *I do not like oranges*, vs. *I do not like those big colorful tasty oranges*), but we still suppose consider am as one pattern. So, to handle language, we need new neural network types like *recurrent networks* and *transformers*.
 
 ## Install Libraries
 
-If you dey use local Python installation to run dis course, you fit need install all the libraries wey you need for NLP using dis commands:
+If you dey use local Python install to run dis course, you fit need install all NLP libraries with these commands:
 
 **For PyTorch**
 ```bash
-pip install -r requirements-torch.txt
+pip install -r requirements-pytorch.txt
 ```
 **For TensorFlow**
 ```bash
@@ -39,13 +39,13 @@ pip install -r requirements-tf.txt
 
 ## GPU Warning
 
-For dis section, for some of the examples, we go dey train big models.
-* **Use GPU-Enabled Computer**: E good make you run your notebooks for GPU-enabled computer to reduce waiting time when you dey work with big models.
-* **GPU Memory Constraints**: If you dey use GPU, e fit lead to situations wey GPU memory go finish, especially when you dey train big models.
-* **GPU Memory Consumption**: The amount of GPU memory wey training dey use depend on different factors, including the minibatch size.
-* **Minimize Minibatch Size**: If GPU memory dey give wahala, try reduce the minibatch size for your code as one possible solution.
-* **TensorFlow GPU Memory Release**: Old versions of TensorFlow fit no dey release GPU memory well when you dey train multiple models for one Python kernel. To manage GPU memory usage well, you fit configure TensorFlow to allocate GPU memory only when e dey needed.
-* **Code Inclusion**: To make TensorFlow grow GPU memory allocation only when e dey needed, add dis code for your notebooks:
+For this section, for some examples we go train big models.
+* **Use GPU Enabled Computer**: E good make you run notebook for GPU enabled computer to reduce waiting time when you dey work with big models.
+* **GPU Memory Constraints**: If you run am for GPU, e fit happen say GPU memory go finish, especially if model big.
+* **GPU Memory Consumption**: How much GPU memory you go use during training depend on many factors, including minibatch size.
+* **Minimize Minibatch Size**: If GPU memory wahala show, try reduce minibatch size for your code.
+* **TensorFlow GPU Memory Release**: Some old TensorFlow versions no dey release GPU memory well when you dey train many models inside one Python kernel. To manage GPU memory well, you fit set TensorFlow make e allocate GPU memory only as e need am.
+* **Code Inclusion**: If you want TensorFlow to grow GPU memory allocation only as e need am, put this code inside your notebooks:
 
 ```python
 physical_devices = tf.config.list_physical_devices('GPU') 
@@ -53,10 +53,10 @@ if len(physical_devices)>0:
     tf.config.experimental.set_memory_growth(physical_devices[0], True) 
 ```
 
-If you wan learn about NLP from classic ML perspective, visit [dis suite of lessons](https://github.com/microsoft/ML-For-Beginners/tree/main/6-NLP)
+If you want learn NLP from classic ML side, check [this suite of lessons](https://github.com/microsoft/ML-For-Beginners/tree/main/6-NLP)
 
-## For dis Section
-For dis section, we go learn about:
+## For this Section
+For this section, we go learn about:
 
 * [How to represent text as tensors](13-TextRep/README.md)
 * [Word Embeddings](14-Emdeddings/README.md)
@@ -68,6 +68,6 @@ For dis section, we go learn about:
 ---
 
 <!-- CO-OP TRANSLATOR DISCLAIMER START -->
-**Disclaimer**:  
-Dis dokyument don translate wit AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). Even as we dey try make am accurate, abeg sabi say machine translation fit get mistake or no dey correct well. Di original dokyument for im native language na di main source wey you go fit trust. For important information, e better make professional human translator check am. We no go fit take blame for any misunderstanding or wrong interpretation wey fit happen because you use dis translation.
+**Disclaimer**:
+Dis document don translate wit AI translation service [Co-op Translator](https://github.com/Azure/co-op-translator). Even tho we dey try make am correct, abeg make you know say automated translation fit get errors or mistakes. Di original document for dia own language na im be di correct source. For important info, make person wey sabi human translation do am. We no go responsible for any misunderstanding or wrong understanding wey fit happen because of dis translation.
 <!-- CO-OP TRANSLATOR DISCLAIMER END -->

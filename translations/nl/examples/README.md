@@ -1,64 +1,64 @@
 # Beginner-Vriendelijke AI Voorbeelden
 
-Welkom! Deze map bevat eenvoudige, zelfstandige voorbeelden om je te helpen beginnen met AI en machine learning. Elk voorbeeld is ontworpen om toegankelijk te zijn voor beginners, met gedetailleerde opmerkingen en stapsgewijze uitleg.
+Welkom! Deze map bevat eenvoudige, zelfstandige voorbeelden om je te helpen starten met AI en machine learning. Elk voorbeeld is ontworpen om beginner-vriendelijk te zijn met gedetailleerde opmerkingen en stapsgewijze uitleg.
 
-## 📚 Overzicht van Voorbeelden
+## 📚 Overzicht Voorbeelden
 
 | Voorbeeld | Beschrijving | Moeilijkheid | Vereisten |
-|-----------|--------------|--------------|-----------|
-| [Hello AI World](../../../examples/01-hello-ai-world.py) | Je eerste AI-programma - eenvoudige patroonherkenning | ⭐ Beginner | Basiskennis Python |
-| [Eenvoudig Neuraal Netwerk](../../../examples/02-simple-neural-network.py) | Bouw een neuraal netwerk vanaf nul | ⭐⭐ Beginner+ | Python, basiswiskunde |
-| [Beeldclassifier](./03-image-classifier.ipynb) | Classificeer beelden met een vooraf getraind model | ⭐⭐ Beginner+ | Python, numpy |
-| [Tekstsentiment](../../../examples/04-text-sentiment.py) | Analyseer tekstsentiment (positief/negatief) | ⭐⭐ Beginner+ | Python |
+|---------|-------------|------------|---------------|
+| [Hello AI World](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/01-hello-ai-world.py) | Je eerste AI-programma - eenvoudige patroonherkenning | ⭐ Beginner | Basis Python |
+| [Simple Neural Network](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/02-simple-neural-network.py) | Bouw een neuraal netwerk vanaf nul | ⭐⭐ Beginner+ | Python, basis wiskunde |
+| [Image Classifier](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/03-image-classifier.ipynb) | Classificeer afbeeldingen met een vooraf getraind model | ⭐⭐ Beginner+ | Python, numpy |
+| [Text Sentiment](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/04-text-sentiment.py) | Analyseer tekstsentiment (positief/negatief) | ⭐⭐ Beginner+ | Python |
 
 ## 🚀 Aan de Slag
 
 ### Vereisten
 
-Zorg ervoor dat je Python hebt geïnstalleerd (3.8 of hoger aanbevolen). Installeer de benodigde pakketten:
+Zorg dat je Python geïnstalleerd hebt (3.8 of hoger aanbevolen). Installeer de benodigde pakketten:
 
 ```bash
-# For Python scripts
+# Voor Python-scripts
 pip install numpy
 
-# For Jupyter notebooks (image classifier)
+# Voor Jupyter-notebooks (beeldclassifier)
 pip install jupyter numpy pillow tensorflow
 ```
 
-Of gebruik de conda-omgeving uit het hoofdcurriculum:
+Of gebruik de conda-omgeving van het hoofdleertraject:
 
 ```bash
 conda env create --name ai4beg --file ../environment.yml
 conda activate ai4beg
 ```
 
-### Voorbeelden Uitvoeren
+### De Voorbeelden Uitvoeren
 
 **Voor Python-scripts (.py bestanden):**
 ```bash
 python 01-hello-ai-world.py
 ```
 
-**Voor Jupyter-notebooks (.ipynb bestanden):**
+**Voor Jupyter notebooks (.ipynb bestanden):**
 ```bash
 jupyter notebook 03-image-classifier.ipynb
 ```
 
 ## 📖 Leerpad
 
-We raden aan om de voorbeelden in volgorde te volgen:
+We raden aan de voorbeelden in deze volgorde te volgen:
 
 1. **Begin met "Hello AI World"** - Leer de basis van patroonherkenning
 2. **Bouw een Eenvoudig Neuraal Netwerk** - Begrijp hoe neurale netwerken werken
-3. **Probeer de Beeldclassifier** - Zie AI in actie met echte beelden
+3. **Probeer de Image Classifier** - Zie AI in actie met echte afbeeldingen
 4. **Analyseer Tekstsentiment** - Verken natuurlijke taalverwerking
 
 ## 💡 Tips voor Beginners
 
-- **Lees de opmerkingen in de code zorgvuldig** - Ze leggen uit wat elke regel doet
+- **Lees de code-opmerkingen aandachtig** - Ze leggen uit wat elke regel doet
 - **Experimenteer!** - Probeer waarden te veranderen en kijk wat er gebeurt
 - **Maak je geen zorgen als je niet alles begrijpt** - Leren kost tijd
-- **Stel vragen** - Gebruik het [Discussiebord](https://github.com/microsoft/AI-For-Beginners/discussions)
+- **Stel vragen** - Gebruik het [Discussieforum](https://github.com/microsoft/AI-For-Beginners/discussions)
 
 ## 🔗 Volgende Stappen
 
@@ -70,7 +70,7 @@ Na het voltooien van deze voorbeelden, verken het volledige curriculum:
 
 ## 🤝 Bijdragen
 
-Vond je deze voorbeelden nuttig? Help ons ze te verbeteren:
+Vonden je deze voorbeelden nuttig? Help ons ze te verbeteren:
 - Meld problemen of stel verbeteringen voor
 - Voeg meer voorbeelden toe voor beginners
 - Verbeter documentatie en opmerkingen
@@ -81,5 +81,7 @@ Vond je deze voorbeelden nuttig? Help ons ze te verbeteren:
 
 ---
 
-**Disclaimer**:  
-Dit document is vertaald met behulp van de AI-vertalingsservice [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u zich ervan bewust te zijn dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor cruciale informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Disclaimer**:
+Dit document is vertaald met behulp van de AI vertaaldienst [Co-op Translator](https://github.com/Azure/co-op-translator). Hoewel we streven naar nauwkeurigheid, dient u er rekening mee te houden dat geautomatiseerde vertalingen fouten of onnauwkeurigheden kunnen bevatten. Het originele document in de oorspronkelijke taal moet worden beschouwd als de gezaghebbende bron. Voor kritieke informatie wordt professionele menselijke vertaling aanbevolen. Wij zijn niet aansprakelijk voor eventuele misverstanden of verkeerde interpretaties die voortvloeien uit het gebruik van deze vertaling.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

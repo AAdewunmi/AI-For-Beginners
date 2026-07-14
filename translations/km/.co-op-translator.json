@@ -5,6 +5,12 @@
     "source_file": "AGENTS.md",
     "language_code": "km"
   },
+  "CONTRIBUTING.md": {
+    "original_hash": "c6fd7e781b67111a90abd166d0ce4aa0",
+    "translation_date": "2026-07-08T20:51:39+00:00",
+    "source_file": "CONTRIBUTING.md",
+    "language_code": "km"
+  },
   "README.md": {
     "original_hash": "12c8eb6bf0867d2f1c32daf613ac5b8b",
     "translation_date": "2026-04-06T17:01:21+00:00",
@@ -16,6 +22,19 @@
     "translation_date": "2026-04-06T16:58:46+00:00",
     "source_file": "SECURITY.md",
     "language_code": "km"
+  },
+  "__translation_failures__": {
+    "lessons/sketchnotes/LICENSE.md": {
+      "original_hash": "45ab63a2cd8f5faef6c9b150618837a4",
+      "source_file": "lessons/sketchnotes/LICENSE.md",
+      "language_code": "km",
+      "failure_date": "2026-07-08T20:51:02+00:00",
+      "status": "failed",
+      "error_type": "TranslationIncompleteError",
+      "error_message": "Markdown translation remained incomplete for chunk 1.1.1 of 'LICENSE.md', and the chunk could not be split further.",
+      "translator_version": "0.20.0",
+      "failure_policy_version": 1
+    }
   },
   "etc/CODE_OF_CONDUCT.md": {
     "original_hash": "c06b12caf3c901eb3156e3dd5b0aea56",
@@ -60,8 +79,8 @@
     "language_code": "km"
   },
   "examples/README.md": {
-    "original_hash": "0d1babfdcbeb46525f2db3fbaaa54cd7",
-    "translation_date": "2026-04-06T17:03:36+00:00",
+    "original_hash": "7883d52c2e2a221e0b07a7b112a149b9",
+    "translation_date": "2026-07-08T20:43:44+00:00",
     "source_file": "examples/README.md",
     "language_code": "km"
   },
@@ -72,8 +91,8 @@
     "language_code": "km"
   },
   "lessons/0-course-setup/how-to-run.md": {
-    "original_hash": "a4717bd9103b9f6cd84d534b83534689",
-    "translation_date": "2026-04-06T17:06:01+00:00",
+    "original_hash": "7ad8c7d8604c53649b3d4d1e2f3a6fa1",
+    "translation_date": "2026-07-08T20:44:16+00:00",
     "source_file": "lessons/0-course-setup/how-to-run.md",
     "language_code": "km"
   },
@@ -306,8 +325,8 @@
     "language_code": "km"
   },
   "lessons/4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb": {
-    "original_hash": "c189abc107848f96051085cc30945129",
-    "translation_date": "2026-04-06T17:57:58+00:00",
+    "original_hash": "99b816b6a4957ef4100cee4c4221dff9",
+    "translation_date": "2026-07-08T20:27:14+00:00",
     "source_file": "lessons/4-ComputerVision/08-TransferLearning/TransferLearningTF.ipynb",
     "language_code": "km"
   },
@@ -600,8 +619,8 @@
     "language_code": "km"
   },
   "lessons/5-NLP/README.md": {
-    "original_hash": "8ef02a9318257ea140ed3ed74442096d",
-    "translation_date": "2026-04-06T17:12:27+00:00",
+    "original_hash": "038df6f1a73e49f6430740da083bfd6d",
+    "translation_date": "2026-07-08T20:44:59+00:00",
     "source_file": "lessons/5-NLP/README.md",
     "language_code": "km"
   },

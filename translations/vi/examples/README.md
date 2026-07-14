@@ -1,85 +1,87 @@
-# Các Ví dụ AI Dễ Hiểu
+# Ví dụ AI thân thiện cho người mới bắt đầu
 
-Chào mừng bạn! Thư mục này chứa các ví dụ đơn giản, độc lập để giúp bạn bắt đầu với AI và học máy. Mỗi ví dụ được thiết kế thân thiện với người mới bắt đầu, kèm theo các bình luận chi tiết và hướng dẫn từng bước.
+Chào mừng! Thư mục này chứa các ví dụ đơn giản, độc lập để giúp bạn bắt đầu với AI và học máy. Mỗi ví dụ được thiết kế thân thiện với người mới bắt đầu với các chú thích chi tiết và giải thích từng bước.
 
-## 📚 Tổng Quan Các Ví Dụ
+## 📚 Tổng quan về các ví dụ
 
-| Ví dụ | Mô tả | Mức độ khó | Yêu cầu trước |
-|-------|-------|------------|---------------|
-| [Hello AI World](../../../examples/01-hello-ai-world.py) | Chương trình AI đầu tiên của bạn - nhận diện mẫu đơn giản | ⭐ Dễ | Kiến thức cơ bản về Python |
-| [Simple Neural Network](../../../examples/02-simple-neural-network.py) | Tạo một mạng nơ-ron từ đầu | ⭐⭐ Dễ+ | Python, toán học cơ bản |
-| [Image Classifier](./03-image-classifier.ipynb) | Phân loại hình ảnh với mô hình đã được huấn luyện trước | ⭐⭐ Dễ+ | Python, numpy |
-| [Text Sentiment](../../../examples/04-text-sentiment.py) | Phân tích cảm xúc văn bản (tích cực/tiêu cực) | ⭐⭐ Dễ+ | Python |
+| Ví dụ | Mô tả | Độ khó | Yêu cầu trước |
+|---------|-------------|------------|---------------|
+| [Hello AI World](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/01-hello-ai-world.py) | Chương trình AI đầu tiên của bạn - nhận dạng mẫu đơn giản | ⭐ Người mới bắt đầu | Kiến thức cơ bản Python |
+| [Simple Neural Network](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/02-simple-neural-network.py) | Xây dựng mạng nơ-ron từ đầu | ⭐⭐ Người mới bắt đầu+ | Python, toán cơ bản |
+| [Image Classifier](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/03-image-classifier.ipynb) | Phân loại hình ảnh với mô hình đã được huấn luyện sẵn | ⭐⭐ Người mới bắt đầu+ | Python, numpy |
+| [Text Sentiment](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/04-text-sentiment.py) | Phân tích cảm xúc văn bản (tích cực/tiêu cực) | ⭐⭐ Người mới bắt đầu+ | Python |
 
-## 🚀 Bắt Đầu
+## 🚀 Bắt đầu
 
-### Yêu Cầu Trước
+### Yêu cầu trước
 
-Hãy đảm bảo bạn đã cài đặt Python (khuyến nghị phiên bản 3.8 hoặc cao hơn). Cài đặt các gói cần thiết:
+Đảm bảo bạn đã cài đặt Python (khuyến nghị phiên bản 3.8 trở lên). Cài đặt các gói cần thiết:
 
 ```bash
-# For Python scripts
+# Cho các script Python
 pip install numpy
 
-# For Jupyter notebooks (image classifier)
+# Cho các notebook Jupyter (bộ phân loại hình ảnh)
 pip install jupyter numpy pillow tensorflow
 ```
 
-Hoặc sử dụng môi trường conda từ chương trình học chính:
+Hoặc sử dụng môi trường conda từ chương trình chính:
 
 ```bash
 conda env create --name ai4beg --file ../environment.yml
 conda activate ai4beg
 ```
 
-### Chạy Các Ví Dụ
+### Chạy các ví dụ
 
-**Đối với các tập tin Python (.py):**
+**Đối với các tập lệnh Python (.py):**
 ```bash
 python 01-hello-ai-world.py
 ```
 
-**Đối với các notebook Jupyter (.ipynb):**
+**Đối với sổ tay Jupyter (.ipynb):**
 ```bash
 jupyter notebook 03-image-classifier.ipynb
 ```
 
-## 📖 Lộ Trình Học Tập
+## 📖 Lộ trình học tập
 
-Chúng tôi khuyến nghị bạn làm theo thứ tự các ví dụ:
+Chúng tôi khuyên bạn nên làm theo thứ tự các ví dụ:
 
-1. **Bắt đầu với "Hello AI World"** - Tìm hiểu cơ bản về nhận diện mẫu
-2. **Xây dựng Mạng Nơ-ron Đơn Giản** - Hiểu cách hoạt động của mạng nơ-ron
-3. **Thử Phân Loại Hình Ảnh** - Xem AI hoạt động với hình ảnh thực tế
-4. **Phân Tích Cảm Xúc Văn Bản** - Khám phá xử lý ngôn ngữ tự nhiên
+1. **Bắt đầu với "Hello AI World"** - Học cơ bản về nhận dạng mẫu
+2. **Xây dựng Mạng Nơ-ron Đơn giản** - Hiểu cách mạng nơ-ron hoạt động
+3. **Thử nghiệm Bộ phân loại hình ảnh** - Xem AI hoạt động với hình ảnh thực
+4. **Phân tích cảm xúc văn bản** - Khám phá xử lý ngôn ngữ tự nhiên
 
-## 💡 Mẹo Cho Người Mới Bắt Đầu
+## 💡 Mẹo cho người mới bắt đầu
 
-- **Đọc kỹ các bình luận trong mã** - Chúng giải thích từng dòng mã
-- **Thử nghiệm!** - Thay đổi các giá trị và xem điều gì xảy ra
-- **Đừng lo lắng nếu chưa hiểu hết** - Học tập cần thời gian
-- **Đặt câu hỏi** - Sử dụng [Diễn đàn thảo luận](https://github.com/microsoft/AI-For-Beginners/discussions)
+- **Đọc kỹ các chú thích trong mã** - Chúng giải thích mỗi dòng làm gì
+- **Thử nghiệm!** - Thử thay đổi các giá trị và xem kết quả
+- **Đừng lo lắng nếu không hiểu hết mọi thứ** - Học là cả một quá trình
+- **Hỏi khi có thắc mắc** - Sử dụng [Bảng thảo luận](https://github.com/microsoft/AI-For-Beginners/discussions)
 
-## 🔗 Bước Tiếp Theo
+## 🔗 Bước tiếp theo
 
-Sau khi hoàn thành các ví dụ này, hãy khám phá chương trình học đầy đủ:
+Sau khi hoàn thành các ví dụ này, hãy khám phá toàn bộ chương trình:
 - [Giới thiệu về AI](../lessons/1-Intro/README.md)
 - [Mạng Nơ-ron](../lessons/3-NeuralNetworks/README.md)
-- [Thị Giác Máy Tính](../lessons/4-ComputerVision/README.md)
-- [Xử Lý Ngôn Ngữ Tự Nhiên](../lessons/5-NLP/README.md)
+- [Thị giác máy tính](../lessons/4-ComputerVision/README.md)
+- [Xử lý ngôn ngữ tự nhiên](../lessons/5-NLP/README.md)
 
-## 🤝 Đóng Góp
+## 🤝 Đóng góp
 
-Thấy các ví dụ này hữu ích? Hãy giúp chúng tôi cải thiện:
+Bạn thấy các ví dụ này hữu ích? Giúp chúng tôi cải thiện chúng:
 - Báo cáo lỗi hoặc đề xuất cải tiến
-- Thêm nhiều ví dụ hơn cho người mới bắt đầu
-- Cải thiện tài liệu và các bình luận
+- Thêm nhiều ví dụ cho người mới bắt đầu
+- Cải thiện tài liệu và chú thích
 
 ---
 
-*Hãy nhớ: Mọi chuyên gia đều từng là người mới bắt đầu. Chúc bạn học tập vui vẻ! 🎓*
+*Hãy nhớ: Mỗi chuyên gia đều từng là người mới bắt đầu. Chúc bạn học vui vẻ! 🎓*
 
 ---
 
-**Tuyên bố miễn trừ trách nhiệm**:  
-Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng các bản dịch tự động có thể chứa lỗi hoặc không chính xác. Tài liệu gốc bằng ngôn ngữ bản địa nên được coi là nguồn thông tin chính thức. Đối với các thông tin quan trọng, khuyến nghị sử dụng dịch vụ dịch thuật chuyên nghiệp bởi con người. Chúng tôi không chịu trách nhiệm cho bất kỳ sự hiểu lầm hoặc diễn giải sai nào phát sinh từ việc sử dụng bản dịch này.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Tuyên bố miễn trừ trách nhiệm**:
+Tài liệu này đã được dịch bằng dịch vụ dịch thuật AI [Co-op Translator](https://github.com/Azure/co-op-translator). Mặc dù chúng tôi cố gắng đảm bảo độ chính xác, xin lưu ý rằng bản dịch tự động có thể chứa lỗi hoặc sai sót. Tài liệu gốc bằng ngôn ngữ gốc nên được coi là nguồn tin chính thức. Đối với thông tin quan trọng, nên sử dụng dịch vụ dịch thuật chuyên nghiệp bởi con người. Chúng tôi không chịu trách nhiệm về bất kỳ hiểu lầm hoặc giải thích sai nào phát sinh từ việc sử dụng bản dịch này.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

@@ -1,26 +1,26 @@
-# Pemprosesan Bahasa Semula Jadi
+# Pemprosesan Bahasa Semulajadi
 
-![Ringkasan tugas NLP dalam bentuk doodle](../../../../translated_images/ms/ai-nlp.b22dcb8ca4707cea.webp)
+![Ringkasan tugas NLP dalam lakaran](../../../../translated_images/ms/ai-nlp.b22dcb8ca4707cea.webp)
 
-Dalam bahagian ini, kita akan memberi tumpuan kepada penggunaan Rangkaian Neural untuk menangani tugas-tugas berkaitan dengan **Pemprosesan Bahasa Semula Jadi (NLP)**. Terdapat banyak masalah NLP yang kita mahu komputer dapat selesaikan:
+Dalam bahagian ini, kita akan menumpukan pada penggunaan Rangkaian Neural untuk mengendalikan tugas berkaitan dengan **Pemprosesan Bahasa Semulajadi (NLP)**. Terdapat banyak masalah NLP yang kita mahu komputer dapat selesaikan:
 
-* **Klasifikasi teks** adalah masalah klasifikasi biasa yang melibatkan urutan teks. Contohnya termasuk mengklasifikasikan e-mel sebagai spam atau bukan spam, atau mengkategorikan artikel kepada sukan, perniagaan, politik, dan sebagainya. Selain itu, semasa membangunkan bot sembang, kita sering perlu memahami apa yang pengguna ingin sampaikan -- dalam kes ini kita berurusan dengan **klasifikasi niat**. Selalunya, dalam klasifikasi niat, kita perlu menangani banyak kategori.
-* **Analisis sentimen** adalah masalah regresi biasa, di mana kita perlu memberikan nombor (sentimen) yang menunjukkan sejauh mana positif/negatif makna sesuatu ayat. Versi yang lebih maju daripada analisis sentimen ialah **analisis sentimen berasaskan aspek** (ABSA), di mana kita memberikan sentimen bukan kepada keseluruhan ayat, tetapi kepada bahagian-bahagian tertentu daripadanya (aspek), contohnya *Di restoran ini, saya suka masakannya, tetapi suasananya sangat teruk*.
-* **Pengecaman Entiti Bernama** (NER) merujuk kepada masalah mengekstrak entiti tertentu daripada teks. Sebagai contoh, kita mungkin perlu memahami bahawa dalam frasa *Saya perlu terbang ke Paris esok* perkataan *esok* merujuk kepada TARIKH, dan *Paris* adalah LOKASI.  
-* **Pengekstrakan kata kunci** adalah serupa dengan NER, tetapi kita perlu mengekstrak perkataan yang penting kepada makna ayat secara automatik, tanpa latihan awal untuk jenis entiti tertentu.
-* **Pengelompokan teks** boleh berguna apabila kita mahu mengumpulkan ayat-ayat yang serupa, contohnya, permintaan yang serupa dalam perbualan sokongan teknikal.
-* **Menjawab soalan** merujuk kepada keupayaan model untuk menjawab soalan tertentu. Model menerima petikan teks dan soalan sebagai input, dan ia perlu memberikan tempat dalam teks di mana jawapan kepada soalan itu terkandung (atau, kadangkala, menjana teks jawapan).
-* **Penjanaan teks** adalah keupayaan model untuk menjana teks baharu. Ia boleh dianggap sebagai tugas klasifikasi yang meramalkan huruf/perkataan seterusnya berdasarkan beberapa *teks permulaan*. Model penjanaan teks yang maju, seperti GPT-3, mampu menyelesaikan tugas NLP lain seperti klasifikasi menggunakan teknik yang dipanggil [prompt programming](https://towardsdatascience.com/software-3-0-how-prompting-will-change-the-rules-of-the-game-a982fbfe1e0) atau [prompt engineering](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29).
-* **Peringkasan teks** adalah teknik apabila kita mahu komputer "membaca" teks panjang dan meringkaskannya dalam beberapa ayat.
+* **Pengelasan teks** adalah masalah pengelasan tipikal berkaitan urutan teks. Contohnya termasuk mengklasifikasikan mesej e-mel sebagai spam vs. bukan spam, atau mengkategorikan artikel sebagai sukan, perniagaan, politik, dll. Juga, apabila membangunkan bot sembang, kita sering perlu memahami apa yang pengguna ingin sampaikan -- dalam kes ini kita mengendalikan **pengelasan niat**. Sering kali, dalam pengelasan niat kita perlu menangani banyak kategori.
+* **Analisis sentimen** adalah masalah regresi tipikal, di mana kita perlu memberikan nombor (sentimen) yang sesuai dengan betapa positif/negatif makna sesuatu ayat. Versi analisis sentimen yang lebih maju ialah **analisis sentimen berasaskan aspek** (ABSA), di mana kita memberikan sentimen bukan kepada keseluruhan ayat, tetapi kepada bahagian-bahagiannya yang berbeza (aspek), contohnya *Di restoran ini, saya suka masakan, tetapi suasananya teruk*.
+* **Pengenalan Entiti Bernama** (NER) merujuk kepada masalah mengekstrak entiti tertentu dari teks. Contohnya, kita mungkin perlu memahami bahawa dalam frasa *Saya perlu terbang ke Paris esok* perkataan *esok* merujuk kepada TARIKH, dan *Paris* adalah LOKASI.  
+* **Pengekstrakan kata kunci** adalah serupa dengan NER, tetapi kita perlu mengekstrak perkataan penting kepada makna ayat secara automatik, tanpa latihan awal untuk jenis entiti tertentu.
+* **Pengkelasan teks** boleh berguna apabila kita mahu mengelompokkan ayat-ayat yang serupa, contohnya, permintaan serupa dalam perbualan sokongan teknikal.
+* **Menjawab soalan** merujuk kepada keupayaan model untuk menjawab soalan tertentu. Model menerima petikan teks dan soalan sebagai input, dan ia perlu menyediakan tempat dalam teks di mana jawapan kepada soalan itu terkandung (atau, kadang-kadang, menjana teks jawapan).
+* **Penjanaan teks** ialah keupayaan model untuk menghasilkan teks baru. Ia boleh dianggap sebagai tugas pengelasan yang meramalkan huruf/kata seterusnya berdasarkan *prompt teks*. Model penjanaan teks canggih, seperti GPT-3, mampu menyelesaikan tugas NLP lain seperti pengelasan menggunakan teknik yang dipanggil [programming prompt](https://towardsdatascience.com/software-3-0-how-prompting-will-change-the-rules-of-the-game-a982fbfe1e0) atau [kejuruteraan prompt](https://medium.com/swlh/openai-gpt-3-and-prompt-engineering-dcdc2c5fcd29)
+* **Rumusan teks** ialah teknik apabila kita mahu komputer "membaca" teks panjang dan merumuskannya dalam beberapa ayat.
 * **Terjemahan mesin** boleh dilihat sebagai gabungan pemahaman teks dalam satu bahasa, dan penjanaan teks dalam bahasa lain.
 
-Pada mulanya, kebanyakan tugas NLP diselesaikan menggunakan kaedah tradisional seperti tatabahasa. Sebagai contoh, dalam terjemahan mesin, penghurai digunakan untuk mengubah ayat asal kepada pokok sintaks, kemudian struktur semantik tahap tinggi diekstrak untuk mewakili makna ayat, dan berdasarkan makna ini serta tatabahasa bahasa sasaran, hasilnya dijana. Kini, banyak tugas NLP lebih berkesan diselesaikan menggunakan rangkaian neural.
+Pada mulanya, kebanyakan tugas NLP diselesaikan menggunakan kaedah tradisional seperti tatabahasa. Contohnya, dalam terjemahan mesin parser digunakan untuk menukar ayat awal menjadi pokok sintaksis, kemudian struktur semantik tahap tinggi diekstrak untuk mewakili makna ayat, dan berdasarkan makna ini dan tatabahasa bahasa sasaran hasil dijana. Kini, banyak tugas NLP diselesaikan dengan lebih berkesan menggunakan rangkaian neural.
 
-> Banyak kaedah NLP klasik dilaksanakan dalam perpustakaan Python [Natural Language Processing Toolkit (NLTK)](https://www.nltk.org). Terdapat [Buku NLTK](https://www.nltk.org/book/) yang hebat tersedia dalam talian yang merangkumi cara pelbagai tugas NLP boleh diselesaikan menggunakan NLTK.
+> Banyak kaedah NLP klasik dilaksanakan dalam perpustakaan Python [Natural Language Processing Toolkit (NLTK)](https://www.nltk.org). Terdapat [Buku NLTK](https://www.nltk.org/book/) hebat yang tersedia dalam talian yang merangkumi bagaimana tugas NLP yang berbeza boleh diselesaikan menggunakan NLTK.
 
-Dalam kursus ini, kita akan memberi tumpuan kepada penggunaan Rangkaian Neural untuk NLP, dan kita akan menggunakan NLTK jika diperlukan.
+Dalam kursus kami, kami akan lebih menumpukan pada penggunaan Rangkaian Neural untuk NLP, dan kami akan menggunakan NLTK apabila perlu.
 
-Kita telah mempelajari tentang penggunaan rangkaian neural untuk menangani data tabular dan imej. Perbezaan utama antara jenis data tersebut dan teks ialah teks adalah urutan dengan panjang berubah-ubah, manakala saiz input dalam kes imej diketahui terlebih dahulu. Walaupun rangkaian konvolusi boleh mengekstrak corak daripada data input, corak dalam teks lebih kompleks. Contohnya, kita boleh mempunyai penafian yang dipisahkan daripada subjek oleh banyak perkataan (contohnya, *Saya tidak suka oren*, berbanding *Saya tidak suka oren besar yang berwarna-warni dan sedap*), dan itu masih perlu ditafsirkan sebagai satu corak. Oleh itu, untuk menangani bahasa, kita perlu memperkenalkan jenis rangkaian neural baharu, seperti *rangkaian berulang* dan *transformer*.
+Kami sudah belajar tentang penggunaan rangkaian neural untuk mengendalikan data tabular dan imej. Perbezaan utama antara jenis data tersebut dan teks ialah teks adalah urutan dengan panjang berubah-ubah, manakala saiz input dalam kes imej diketahui terlebih dahulu. Walaupun rangkaian konvolusi boleh mengekstrak corak daripada data input, corak dalam teks adalah lebih kompleks. Contohnya, kita boleh mempunyai penafian yang dipisahkan dari subjek dengan kata-kata sewenang-wenangnya (contoh *Saya tidak suka oren*, berbanding *Saya tidak suka oren besar berwarna-warni yang sedap itu*), dan itu harus tetap ditafsirkan sebagai satu corak. Oleh itu, untuk mengendalikan bahasa kita perlu memperkenalkan jenis rangkaian neural baru, seperti *rangkaian berulang* dan *transformer*.
 
 ## Pasang Perpustakaan
 
@@ -28,7 +28,7 @@ Jika anda menggunakan pemasangan Python tempatan untuk menjalankan kursus ini, a
 
 **Untuk PyTorch**
 ```bash
-pip install -r requirements-torch.txt
+pip install -r requirements-pytorch.txt
 ```
 **Untuk TensorFlow**
 ```bash
@@ -40,12 +40,12 @@ pip install -r requirements-tf.txt
 ## Amaran GPU
 
 Dalam bahagian ini, dalam beberapa contoh kita akan melatih model yang agak besar.
-* **Gunakan Komputer Berkemampuan GPU**: Adalah disarankan untuk menjalankan buku nota anda pada komputer yang dilengkapi GPU untuk mengurangkan masa menunggu semasa bekerja dengan model besar.
-* **Kekangan Memori GPU**: Menjalankan pada GPU mungkin menyebabkan situasi di mana anda kehabisan memori GPU, terutamanya semasa melatih model besar.
-* **Penggunaan Memori GPU**: Jumlah memori GPU yang digunakan semasa latihan bergantung pada pelbagai faktor, termasuk saiz minibatch.
-* **Kurangkan Saiz Minibatch**: Jika anda menghadapi masalah memori GPU, pertimbangkan untuk mengurangkan saiz minibatch dalam kod anda sebagai penyelesaian yang mungkin.
-* **Pelepasan Memori GPU TensorFlow**: Versi lama TensorFlow mungkin tidak melepaskan memori GPU dengan betul semasa melatih beberapa model dalam satu kernel Python. Untuk mengurus penggunaan memori GPU dengan berkesan, anda boleh mengkonfigurasi TensorFlow untuk memperuntukkan memori GPU hanya apabila diperlukan.
-* **Penyertaan Kod**: Untuk menetapkan TensorFlow supaya memperuntukkan memori GPU hanya apabila diperlukan, sertakan kod berikut dalam buku nota anda:
+* **Gunakan Komputer yang Mempunyai GPU**: Adalah disyorkan untuk menjalankan notebook anda pada komputer yang dilengkapi GPU untuk mengurangkan masa menunggu apabila bekerja dengan model besar.
+* **Keterbatasan Memori GPU**: Menjalankan pada GPU mungkin membawa kepada situasi di mana anda kehabisan memori GPU, terutamanya apabila melatih model besar.
+* **Penggunaan Memori GPU**: Jumlah memori GPU yang digunakan semasa latihan bergantung kepada pelbagai faktor, termasuk saiz minibatch.
+* **Minimakan Saiz Minibatch**: Jika anda menghadapi masalah memori GPU, pertimbangkan untuk mengurangkan saiz minibatch dalam kod anda sebagai penyelesaian potensi.
+* **Pelepasan Memori GPU oleh TensorFlow**: Versi lama TensorFlow mungkin tidak melepaskan memori GPU dengan betul apabila melatih beberapa model dalam satu kernel Python. Untuk menguruskan penggunaan memori GPU dengan berkesan, anda boleh mengkonfigurasi TensorFlow untuk mengalokasikan memori GPU hanya apabila perlu.
+* **Penyertaan Kod**: Untuk menetapkan TensorFlow agar memanjangkan pengalokasian memori GPU hanya apabila diperlukan, sertakan kod berikut dalam notebook anda:
 
 ```python
 physical_devices = tf.config.list_physical_devices('GPU') 
@@ -53,13 +53,13 @@ if len(physical_devices)>0:
     tf.config.experimental.set_memory_growth(physical_devices[0], True) 
 ```
 
-Jika anda berminat untuk mempelajari NLP dari perspektif ML klasik, lawati [siri pelajaran ini](https://github.com/microsoft/ML-For-Beginners/tree/main/6-NLP)
+Jika anda berminat untuk belajar tentang NLP dari perspektif ML klasik, lawati [suite pelajaran ini](https://github.com/microsoft/ML-For-Beginners/tree/main/6-NLP)
 
 ## Dalam Bahagian Ini
-Dalam bahagian ini kita akan mempelajari tentang:
+Dalam bahagian ini kita akan belajar tentang:
 
 * [Mewakili teks sebagai tensor](13-TextRep/README.md)
-* [Perwakilan Perkataan](14-Emdeddings/README.md)
+* [Penggantungan Perkataan](14-Emdeddings/README.md)
 * [Pemodelan Bahasa](15-LanguageModeling/README.md)
 * [Rangkaian Neural Berulang](16-RNN/README.md)
 * [Rangkaian Generatif](17-GenerativeNetworks/README.md)
@@ -67,5 +67,7 @@ Dalam bahagian ini kita akan mempelajari tentang:
 
 ---
 
-**Penafian**:  
-Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk memastikan ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang berwibawa. Untuk maklumat yang kritikal, terjemahan manusia profesional adalah disyorkan. Kami tidak bertanggungjawab atas sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Penafian**:
+Dokumen ini telah diterjemahkan menggunakan perkhidmatan terjemahan AI [Co-op Translator](https://github.com/Azure/co-op-translator). Walaupun kami berusaha untuk ketepatan, sila ambil maklum bahawa terjemahan automatik mungkin mengandungi kesilapan atau ketidaktepatan. Dokumen asal dalam bahasa asalnya harus dianggap sebagai sumber yang sahih. Untuk maklumat penting, terjemahan oleh manusia profesional adalah disyorkan. Kami tidak bertanggungjawab terhadap sebarang salah faham atau salah tafsir yang timbul daripada penggunaan terjemahan ini.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->

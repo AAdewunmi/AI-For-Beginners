@@ -1,85 +1,87 @@
-# Algajatele sobivad tehisintellekti näited
+# Algajatele Sobivad Tehisintellekti Näited
 
-Tere tulemast! See kataloog sisaldab lihtsaid ja iseseisvaid näiteid, mis aitavad sul alustada tehisintellekti ja masinõppega. Iga näide on loodud algajasõbralikuks, sisaldades üksikasjalikke kommentaare ja samm-sammulisi selgitusi.
+Tere tulemast! See kataloog sisaldab lihtsaid üksikuid näiteid, mis aitavad sul alustada tehisintellekti ja masinõppega. Iga näide on loodud algajasõbralikuna koos põhjalike kommentaaride ja samm-sammuliste selgitustega.
 
-## 📚 Näidete ülevaade
+## 📚 Näidete Ülevaade
 
-| Näide | Kirjeldus | Raskusaste | Eelteadmised |
-|-------|-----------|------------|--------------|
-| [Tere, AI maailm](../../../examples/01-hello-ai-world.py) | Sinu esimene tehisintellekti programm - lihtne mustrituvastus | ⭐ Algaja | Pythoni algteadmised |
-| [Lihtne närvivõrk](../../../examples/02-simple-neural-network.py) | Loo närvivõrk nullist | ⭐⭐ Algaja+ | Python, põhiteadmised matemaatikast |
-| [Pildiklassifitseerija](./03-image-classifier.ipynb) | Klassifitseeri pilte eelnevalt treenitud mudeliga | ⭐⭐ Algaja+ | Python, numpy |
-| [Teksti sentiment](../../../examples/04-text-sentiment.py) | Analüüsi teksti sentimenti (positiivne/negatiivne) | ⭐⭐ Algaja+ | Python |
+| Näide | Kirjeldus | Raskusaste | Nõuded |
+|---------|-------------|------------|---------------|
+| [Tere, AI maailm](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/01-hello-ai-world.py) | Sinu esimene tehisintellekti programm - lihtne mustrituvastus | ⭐ Algaja | Pythoni põhiteadmised |
+| [Lihtne närvivõrk](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/02-simple-neural-network.py) | Ehita närvivõrk nullist | ⭐⭐ Algaja+ | Python, põhiline matemaatika |
+| [Pildiklassifitseerija](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/03-image-classifier.ipynb) | Klassifitseeri pilte eelõpetatud mudeliga | ⭐⭐ Algaja+ | Python, numpy |
+| [Teksti meeleolu](https://github.com/microsoft/AI-For-Beginners/blob/main/examples/04-text-sentiment.py) | Analüüsi teksti meelolu (positiivne/negatiivne) | ⭐⭐ Algaja+ | Python |
 
 ## 🚀 Alustamine
 
-### Eeltingimused
+### Nõudmised
 
-Veendu, et sul on Python installitud (soovitatav versioon 3.8 või uuem). Paigalda vajalikud paketid:
+Veendu, et sinul on Python installitud (soovitatav 3.8 või uuem). Paigalda vajalikud paketid:
 
 ```bash
-# For Python scripts
+# Pythoni skriptide jaoks
 pip install numpy
 
-# For Jupyter notebooks (image classifier)
+# Jupyteri märkmike jaoks (pildiklassifikaator)
 pip install jupyter numpy pillow tensorflow
 ```
 
-Või kasuta põhikursuse conda keskkonda:
+Või kasuta conda keskkonda põhikursusest:
 
 ```bash
 conda env create --name ai4beg --file ../environment.yml
 conda activate ai4beg
 ```
 
-### Näidete käivitamine
+### Näidete Käivitamine
 
 **Python skriptide (.py failid) jaoks:**
 ```bash
 python 01-hello-ai-world.py
 ```
 
-**Jupyteri märkmike (.ipynb failid) jaoks:**
+**Jupyter märkmeraamatute (.ipynb failid) jaoks:**
 ```bash
 jupyter notebook 03-image-classifier.ipynb
 ```
 
-## 📖 Õppimise teekond
+## 📖 Õppimise Tee
 
 Soovitame järgida näiteid järjekorras:
 
-1. **Alusta "Tere, AI maailm" näitest** - Õpi mustrituvastuse põhitõdesid
+1. **Alusta "Tere, AI maailm"-ga** - Õpi mustrituvastuse põhialuseid
 2. **Ehita lihtne närvivõrk** - Mõista, kuidas närvivõrgud töötavad
-3. **Proovi pildiklassifitseerijat** - Näe tehisintellekti töös päris piltidega
-4. **Analüüsi teksti sentimenti** - Uuri loomuliku keele töötlemist
+3. **Proovi pildiklassifitseerijat** - Vaata tehisintellekti toimimas pärispiltidega
+4. **Analüüsi teksti meeleolu** - Uuri loomuliku keele töötlust
 
-## 💡 Näpunäiteid algajatele
+## 💡 Nõuanded Algajatele
 
-- **Loe hoolikalt koodikommentaare** - Need selgitavad, mida iga rida teeb
+- **Loe koodi kommentaare hoolikalt** - Need selgitavad, mida iga rida teeb
 - **Katseta!** - Proovi muuta väärtusi ja vaata, mis juhtub
 - **Ära muretse, kui kõike kohe ei mõista** - Õppimine võtab aega
-- **Küsi küsimusi** - Kasuta [arutelufoorumit](https://github.com/microsoft/AI-For-Beginners/discussions)
+- **Esita küsimusi** - Kasuta [Arutelufoorumit](https://github.com/microsoft/AI-For-Beginners/discussions)
 
-## 🔗 Järgmised sammud
+## 🔗 Järgmised Sammud
 
-Pärast nende näidete läbimist avasta kogu õppekava:
+Kui oled need näited lõpetanud, uurige kogu õppekava:
 - [Sissejuhatus tehisintellekti](../lessons/1-Intro/README.md)
 - [Närvivõrgud](../lessons/3-NeuralNetworks/README.md)
 - [Arvutinägemine](../lessons/4-ComputerVision/README.md)
-- [Loomuliku keele töötlemine](../lessons/5-NLP/README.md)
+- [Loodusliku Keele Töötlus](../lessons/5-NLP/README.md)
 
-## 🤝 Kaasaaitamine
+## 🤝 Panustamine
 
-Leidsid need näited kasulikud? Aita meil neid paremaks muuta:
-- Teata probleemidest või tee parandusettepanekuid
-- Lisa rohkem algajatele mõeldud näiteid
+Kas leidsid need näited kasulikuks? Aita meil neid parandada:
+- Teata probleemidest või tee ettepanekuid
+- Lisa rohkem näiteid algajatele
 - Paranda dokumentatsiooni ja kommentaare
 
 ---
 
-*Pea meeles: Iga ekspert on kunagi olnud algaja. Head õppimist! 🎓*
+*Pea meeles: iga ekspert oli kord algaja. Edukat õppimist! 🎓*
 
 ---
 
-**Lahtiütlus**:  
-See dokument on tõlgitud, kasutades AI tõlketeenust [Co-op Translator](https://github.com/Azure/co-op-translator). Kuigi püüame tagada täpsust, palun arvestage, et automaatsed tõlked võivad sisaldada vigu või ebatäpsusi. Algne dokument selle algses keeles tuleks lugeda autoriteetseks allikaks. Olulise teabe puhul on soovitatav kasutada professionaalset inimtõlget. Me ei vastuta selle tõlke kasutamisest tulenevate arusaamatuste või valede tõlgenduste eest.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Lahtiütlus**:
+See dokument on tõlgitud kasutades AI tõlketeenust [Co-op Translator](https://github.com/Azure/co-op-translator). Kuigi me püüdleme täpsuse poole, palun pange tähele, et automatiseeritud tõlgetes võib esineda vigu või ebatäpsusi. Originaaldokument selle emakeeles tuleks pidada autoriteetseks allikaks. Olulise teabe puhul soovitatakse kasutada professionaalset inimtõlget. Me ei vastuta selle tõlkega seotud eksimustest või valesti mõistmistest.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
