@@ -87,5 +87,5 @@ jobs:
         run: |
           echo "Downloaded files:"
           ls -la || true
-          echo "If results.sarif is present, show basic info:"
-          file results.sarif || true
+          echo "If results-sarif/results.sarif is present, show basic info:"
+          file results-sarif/results.sarif || true
