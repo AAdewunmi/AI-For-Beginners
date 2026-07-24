@@ -2,344 +2,435 @@ Attribution-ShareAlike 4.0 International
 
 =======================================================================
 
-Creative Commons Corporation ("Creative Commons") er ikke et advokatfirma og yder ikke juridisk rådgivning eller juridiske tjenester. Distribution af Creative Commons offentlige licenser skaber ikke et advokat-klient-forhold eller andre relationer. Creative Commons stiller sine licenser og relaterede oplysninger til rådighed "som de er". Creative Commons giver ingen garantier for sine licenser, materialer licenseret under deres vilkår og betingelser eller relaterede oplysninger. Creative Commons fraskriver sig ethvert ansvar for skader, der opstår som følge af deres brug, i det omfang det er muligt.
+Creative Commons Corporation ("Creative Commons") er ikke et advokatfirma og
+yder ikke juridiske tjenester eller juridisk rådgivning. Distribution af
+Creative Commons offentlige licenser skaber ikke et advokat-klient eller
+andet forhold. Creative Commons stiller sine licenser og relaterede
+oplysninger til rådighed på et "som det er" grundlag. Creative Commons giver ingen
+garantier vedrørende sine licenser, noget materiale licenseret under deres
+vilkår og betingelser, eller nogen relateret information. Creative Commons
+fraskriver sig alt ansvar for skader som følge af brugen af disse i
+det størst mulige omfang.
 
-Brug af Creative Commons offentlige licenser
+Brug af Creative Commons Offentlige Licenser
 
-Creative Commons offentlige licenser giver et standardiseret sæt af vilkår og betingelser, som skabere og andre rettighedshavere kan bruge til at dele originale værker og andet materiale, der er underlagt ophavsret og visse andre rettigheder, som angivet i den offentlige licens nedenfor. Følgende overvejelser er kun til informationsformål, er ikke udtømmende og udgør ikke en del af vores licenser.
+Creative Commons offentlige licenser leverer et standard sæt vilkår og
+betingelser, som skabere og andre rettighedshavere kan bruge til at dele
+originale værker og andet materiale underlagt ophavsret
+og visse andre rettigheder specificeret i den offentlige licens nedenfor. De
+følgende overvejelser er kun til informationsformål, er ikke
+udtømmende og udgør ikke en del af vores licenser.
 
-     Overvejelser for licensgivere: Vores offentlige licenser er
-     beregnet til brug af dem, der er autoriseret til at give offentligheden
+     Overvejelser for licensgivere: Våre offentlige licenser er
+     tiltænkt brug af dem som er autoriserede til at give offentligheden
      tilladelse til at bruge materiale på måder, der ellers er begrænset af
-     ophavsret og visse andre rettigheder. Vores licenser er
+     ophavsret og visse andre rettigheder. Våre licenser er
      uigenkaldelige. Licensgivere bør læse og forstå vilkårene
      og betingelserne for den licens, de vælger, før de anvender den.
-     Licensgivere bør også sikre sig alle nødvendige rettigheder, før
+     Licensgivere bør også sikre alle nødvendige rettigheder, før
      de anvender vores licenser, så offentligheden kan genbruge
-     materialet som forventet. Licensgivere bør tydeligt markere alt
-     materiale, der ikke er underlagt licensen. Dette inkluderer andet CC-
-     licenseret materiale eller materiale, der bruges under en undtagelse eller
+     materialet som forventet. Licensgivere bør tydeligt markere ethvert
+     materiale, som ikke er underlagt licensen. Dette inkluderer andet CC-
+     licenseret materiale, eller materiale brugt under en undtagelse eller
      begrænsning af ophavsretten. Flere overvejelser for licensgivere:
 	wiki.creativecommons.org/Considerations_for_licensors
 
-     Overvejelser for offentligheden: Ved at bruge en af vores offentlige
-     licenser giver en licensgiver offentligheden tilladelse til at bruge det
-     licenserede materiale under specifikke vilkår og betingelser. Hvis
-     licensgiverens tilladelse ikke er nødvendig af en eller anden grund—for
-     eksempel på grund af en gældende undtagelse eller begrænsning af
-     ophavsretten—så reguleres den brug ikke af licensen. Vores
+     Overvejelser for offentligheden: Ved brug af en af vores offentlige
+     licenser, giver en licensgiver offentligheden tilladelse til at bruge
+     det licenserede materiale under specificerede vilkår og betingelser. Hvis
+     licensgiverens tilladelse ikke er nødvendig af nogen grund - for
+     eksempel, på grund af en gældende undtagelse eller begrænsning af
+     ophavsretten - så er denne brug ikke reguleret af licensen. Våre
      licenser giver kun tilladelser under ophavsret og visse
-     andre rettigheder, som en licensgiver har myndighed til at give.
-     Brug af det licenserede materiale kan stadig være begrænset af andre
-     årsager, herunder fordi andre har ophavsret eller andre
-     rettigheder til materialet. En licensgiver kan fremsætte særlige
-     anmodninger, såsom at alle ændringer markeres eller beskrives.
-     Selvom det ikke er påkrævet af vores licenser, opfordres du til at
-     respektere sådanne anmodninger, hvor det er rimeligt. Flere overvejelser
+     andre rettigheder som en licensgiver har myndighed til at give. Brug af
+     det licenserede materiale kan stadig være begrænset af andre
+     årsager, inklusiv fordi andre har ophavsret eller andre
+     rettigheder til materialet. En licensgiver kan give særlige ønsker,
+     såsom at bede om, at alle ændringer markeres eller beskrives.
+     Selvom det ikke er et krav i vores licenser, opfordres du til at
+     respektere disse ønsker, hvor det er rimeligt. Flere overvejelser
      for offentligheden:
 	wiki.creativecommons.org/Considerations_for_licensees
 
 =======================================================================
 
-Creative Commons Attribution-ShareAlike 4.0 International Public
-License
+Creative Commons Attribution-ShareAlike 4.0 International Offentlig
+Licens
 
-Ved at udøve de licenserede rettigheder (defineret nedenfor) accepterer og
+Ved at udøve de Licenserede Rettigheder (defineret nedenfor), accepterer og
 indvilliger du i at være bundet af vilkårene og betingelserne i denne Creative Commons
-Attribution-ShareAlike 4.0 International Public License ("Offentlig
-Licens"). I det omfang denne offentlige licens kan tolkes som en
-kontrakt, gives du de licenserede rettigheder som en betingelse for din
-accept af disse vilkår og betingelser, og licensgiveren giver dig
-sådanne rettigheder som en betingelse for de fordele, licensgiveren modtager ved
-at stille det licenserede materiale til rådighed under disse vilkår og
+Attribution-ShareAlike 4.0 International Offentlig Licens ("Offentlig
+Licens"). I det omfang denne Offentlige Licens kan fortolkes som en
+kontrakt, gives dig de Licenserede Rettigheder i betragtning af din
+accept af disse vilkår og betingelser, og Licensgiveren giver dig
+sådanne rettigheder i betragtning af fordelene Licensgiveren modtager ved
+at gøre det Licenserede Materiale tilgængeligt under disse vilkår og
 betingelser.
 
 
-Afsnit 1 -- Definitioner.
+Sektion 1 -- Definitioner.
 
-  a. Bearbejdet materiale betyder materiale underlagt ophavsret og lignende
-     rettigheder, der er afledt af eller baseret på det licenserede materiale
-     og hvor det licenserede materiale er oversat, ændret,
-     arrangeret, transformeret eller på anden måde modificeret på en måde, der kræver
-     tilladelse under ophavsret og lignende rettigheder, som indehaves af
-     licensgiveren. For formål med denne offentlige licens, hvor det licenserede
-     materiale er et musikværk, en opførelse eller en lydoptagelse,
-     produceres bearbejdet materiale altid, hvor det licenserede materiale er
-     synkroniseret i tidsmæssig relation med et bevægeligt billede.
+  a. Tilpasset Materiale betyder materiale underlagt Ophavsret og Lignende
+     Rettigheder, som er afledt af eller baseret på det Licenserede Materiale
+     og hvor det Licenserede Materiale oversættes, ændres,
+     arrangeres, omdannes eller på anden måde modificeres på en måde, der kræver
+     tilladelse under de Ophavsret og Lignende Rettigheder, som Licensgiveren
+     har. Til formålet med denne Offentlige Licens, er det Tilpassede
+     Materiale altid produceret når det Licenserede Materiale er
+     synkroniseret i tidsmæssig relation med et bevægeligt billede, hvis det
+     Licenserede Materiale er et musikværk, en optræden, eller lydoptagelse.
 
-  b. Adapterens licens betyder den licens, du anvender på dine ophavsretlige
-     og lignende rettigheder i dine bidrag til bearbejdet materiale i
-     overensstemmelse med vilkårene og betingelserne i denne offentlige licens.
+  b. Adapterens Licens betyder den licens, du anvender på dine Ophavsretlige
+     og Lignende Rettigheder i dine bidrag til Tilpasset Materiale i
+     overensstemmelse med vilkårene og betingelserne i denne Offentlige Licens.
 
-  c. BY-SA kompatibel licens betyder en licens, der er opført på
+  c. BY-SA Kompatibel Licens betyder en licens opført på
      creativecommons.org/compatiblelicenses, godkendt af Creative
-     Commons som i det væsentlige svarende til denne offentlige licens.
+     Commons som essentielt ækvivalent med denne Offentlige Licens.
 
-  d. Ophavsret og lignende rettigheder betyder ophavsret og/eller lignende rettigheder
-     tæt relateret til ophavsret, herunder, uden begrænsning,
-     opførelse, udsendelse, lydoptagelse og sui generis-database
-     rettigheder, uden hensyn til hvordan rettighederne er mærket eller
-     kategoriseret. For formål med denne offentlige licens er de rettigheder,
-     der er specificeret i afsnit 2(b)(1)-(2), ikke ophavsret og lignende
-     rettigheder.
+  d. Ophavsret og Lignende Rettigheder betyder ophavsret og/eller lignende rettigheder,
+     som er tæt relateret til ophavsret, inklusive, uden begrænsning,
+     fremførelse, udsendelse, lydoptagelse, og Sui Generis Databaserettigheder,
+     uden hensyntagen til hvordan rettighederne er mærket eller
+     kategoriseret. Til formålet for denne Offentlige Licens er de rettigheder
+     specificeret i Sektion 2(b)(1)-(2) ikke Ophavsret og Lignende
+     Rettigheder.
 
-  e. Effektive teknologiske foranstaltninger betyder de foranstaltninger, der, i
-     fravær af korrekt autoritet, ikke kan omgås under love
-     opfyldende forpligtelser under artikel 11 i WIPO Copyright
-     Traktaten vedtaget den 20. december 1996 og/eller lignende internationale
+  e. Effektive Teknologiske Foranstaltninger betyder de foranstaltninger, som,
+     uden korrekt autoritet, ikke må omgås under love
+     som opfylder forpligtelser under Artikel 11 i WIPO Copyright
+     Traktaten vedtaget den 20. december 1996, og/eller lignende internationale
      aftaler.
 
-  f. Undtagelser og begrænsninger betyder fair use, fair dealing og/eller
-     enhver anden undtagelse eller begrænsning af ophavsret og lignende rettigheder
-     der gælder for din brug af det licenserede materiale.
+  f. Undtagelser og Begrænsninger betyder fair use, fair dealing, og/eller
+     enhver anden undtagelse eller begrænsning af Ophavsret og Lignende Rettigheder
+     som gælder for din brug af det Licenserede Materiale.
 
-  g. Licenselementer betyder licensattributterne opført i navnet
-     på en Creative Commons offentlig licens. Licenselementerne i denne
-     offentlige licens er Attribution og ShareAlike.
+  g. Licenselementer betyder licensattributterne listet i navnet
+     på en Creative Commons Offentlig Licens. Licenselementerne i denne
+     Offentlige Licens er Attribution og ShareAlike.
 
-  h. Licenseret materiale betyder det kunstneriske eller litterære værk, database,
-     eller andet materiale, som licensgiveren har anvendt denne offentlige
-     licens på.
+  h. Licenseret Materiale betyder det kunstneriske eller litterære værk, database,
+     eller andet materiale, som Licensgiveren har anvendt denne Offentlige
+     Licens til.
 
-  i. Licenserede rettigheder betyder de rettigheder, der gives til dig underlagt
-     vilkårene og betingelserne i denne offentlige licens, som er begrænset til
-     alle ophavsret og lignende rettigheder, der gælder for din brug af det
-     licenserede materiale, og som licensgiveren har myndighed til at licensere.
+  i. Licenserede Rettigheder betyder de rettigheder, der gives dig underlagt
+     vilkår og betingelser i denne Offentlige Licens, som er begrænset til
+     alle Ophavsret og Lignende Rettigheder, der gælder for din brug af det
+     Licenserede Materiale og som Licensgiveren har myndighed til at licensere.
 
-  j. Licensgiver betyder den/de person(er) eller enhed(er), der giver rettigheder
-     under denne offentlige licens.
+  j. Licensgiver betyder den eller de personer eller enheder, der giver rettigheder
+     under denne Offentlige Licens.
 
-  k. Dele betyder at stille materiale til rådighed for offentligheden på enhver måde eller
-     proces, der kræver tilladelse under de licenserede rettigheder, såsom reproduktion,
-     offentlig visning, offentlig opførelse, distribution,
-     spredning, kommunikation eller import, og at gøre materialet
+  k. Del betyder at stille materiale til rådighed for offentligheden ved enhver metode eller
+     proces, som kræver tilladelse under de Licenserede Rettigheder, såsom
+     reproduktion, offentligt fremvisning, offentlig optræden, distribution,
+     formidling, kommunikation eller import, og at gøre materiale
      tilgængeligt for offentligheden, herunder på måder, hvor medlemmer af
-     offentligheden kan få adgang til materialet fra et sted og på et tidspunkt
-     individuelt valgt af dem.
+     offentligheden kan få adgang til materialet fra et sted og på et tidspunkt,
+     der vælges individuelt af dem.
 
-  l. Sui generis-database rettigheder betyder rettigheder, der ikke er ophavsret
-     som følge af direktiv 96/9/EF fra Europa-Parlamentet og
-     Rådet af 11. marts 1996 om den juridiske beskyttelse af databaser,
-     som ændret og/eller efterfulgt, samt andre i det væsentlige
-     tilsvarende rettigheder hvor som helst i verden.
+  l. Sui Generis Databaserettigheder betyder rettigheder andre end ophavsret,
+     som følge af Direktiv 96/9/EF fra Europa-Parlamentet og
+     Rådet af 11. marts 1996 om det juridiske beskyttelse af databaser,
+     som ændret og/eller efterfulgt, samt andre essentielt
+     ækvivalente rettigheder hvor som helst i verden.
 
-  m. Du betyder den person eller enhed, der udøver de licenserede rettigheder
-     under denne offentlige licens. Din har en tilsvarende betydning.
+  m. Du betyder den person eller enhed, som udøver de Licenserede Rettigheder
+     under denne Offentlige Licens. Din har tilsvarende betydning.
 
 
-Afsnit 2 -- Omfang.
+Sektion 2 -- Omfang.
 
-  a. Licensgivning.
 
-       1. Underlagt vilkårene og betingelserne i denne offentlige licens,
-          giver licensgiveren dig hermed en verdensomspændende, royaltyfri,
+  a. Licenstildeling.
+
+       1. Underlagt vilkårene og betingelserne i denne Offentlige Licens,
+          tildeler Licensgiveren hermed Dig en verdensomspændende, royaltyfri,
           ikke-underlicenserbar, ikke-eksklusiv, uigenkaldelig licens til
-          at udøve de licenserede rettigheder i det licenserede materiale til:
+          at udøve de Licenserede Rettigheder i det Licenserede Materiale til:
 
-            a. reproducere og dele det licenserede materiale, helt eller
+            a. at gengive og Dele det Licenserede Materiale, helt eller
                delvist; og
 
-            b. producere, reproducere og dele bearbejdet materiale.
+            b. at fremstille, gengive og Dele Tilpasset Materiale.
 
-       2. Undtagelser og begrænsninger. For at undgå tvivl, hvor
-          undtagelser og begrænsninger gælder for din brug, gælder denne offentlige
-          licens ikke, og du behøver ikke at overholde dens vilkår og betingelser.
+       2. Undtagelser og Begrænsninger. For at undgå tvivl, hvor
+          Undtagelser og Begrænsninger gælder for din brug, gælder denne
+          Offentlige Licens ikke, og Du behøver ikke overholde
+          dens vilkår og betingelser.
 
-       3. Varighed. Varigheden af denne offentlige licens er specificeret i afsnit
+       3. Varighed. Varigheden af denne Offentlige Licens er angivet i Afsnit
           6(a).
 
        4. Medier og formater; tekniske ændringer tilladt. Licensgiveren
-          autoriserer dig til at udøve de licenserede rettigheder i
-          alle medier og formater, hvad enten de er kendt nu eller skabt senere,
-          og til at foretage tekniske ændringer, der er nødvendige for at gøre det. Licensgiveren
-          fraskriver sig og/eller indvilliger i ikke at gøre krav på nogen ret eller
-          myndighed til at forbyde dig at foretage tekniske ændringer
-          nødvendige for at udøve de licenserede rettigheder, herunder
-          tekniske ændringer nødvendige for at omgå effektive
-          teknologiske foranstaltninger. For formål med denne offentlige licens,
-          producerer det at foretage ændringer, der er autoriseret af dette afsnit 2(a)
-          (4), aldrig bearbejdet materiale.
+          giver Dig ret til at udøve de Licenserede Rettigheder i
+          alle medier og formater, hvad enten de er kendt nu eller oprettes
+          senere, og til at foretage nødvendige tekniske ændringer for at gøre
+          dette. Licensgiveren fraskriver sig og/eller accepterer ikke at påberåbe
+          sig nogen rettighed eller myndighed til at forbyde Dig at foretage de
+          nødvendige tekniske ændringer for at udøve de Licenserede Rettigheder,
+          herunder tekniske ændringer nødvendige for at omgå Effektive
+          Teknologiske Foranstaltninger. For formålene med denne Offentlige Licens
+          medfører det alene at foretage ændringer, som er autoriseret af denne Sektion 2(a)
+          (4) aldrig Tilpasset Materiale.
 
-       5. Modtagere nedstrøms.
+       5. Nedstrøms modtagere.
 
-            a. Tilbud fra licensgiveren -- licenseret materiale. Hver
-               modtager af det licenserede materiale modtager automatisk
-               et tilbud fra licensgiveren om at udøve de
-               licenserede rettigheder under vilkårene og betingelserne i denne
-               offentlige licens.
+            a. Tilbud fra Licensgiveren -- Licenseret Materiale. Enhver
+               modtager af det Licenserede Materiale modtager automatisk et tilbud
+               fra Licensgiveren om at udøve de Licenserede Rettigheder under
+               vilkårene og betingelserne i denne Offentlige Licens.
 
-            b. Yderligere tilbud fra licensgiveren -- bearbejdet materiale.
-               Hver modtager af bearbejdet materiale fra dig
-               modtager automatisk et tilbud fra licensgiveren om at
-               udøve de licenserede rettigheder i det bearbejdede materiale
-               under betingelserne i den adapterens licens, du anvender.
 
-            c. Ingen restriktioner nedstrøms. Du må ikke tilbyde eller pålægge
-               nogen yderligere eller forskellige vilkår eller betingelser på, eller
-               anvende nogen effektive teknologiske foranstaltninger på, det
-               licenserede materiale, hvis det begrænser udøvelsen af de
-               licenserede rettigheder af nogen modtager af det licenserede
-               materiale.
+               Enhver modtager af Tilpasset Materiale fra Dig modtager automatisk et
+               tilbud fra Licensgiveren om at udøve de Licenserede Rettigheder i det
+               Tilpassede Materiale under de betingelser, der gælder for den
+               Tilpassers Licens, som Du anvender.
 
-       6. Ingen godkendelse. Intet i denne offentlige licens udgør eller
-          kan tolkes som tilladelse til at hævde eller antyde, at du
-          er, eller at din brug af det licenserede materiale er, forbundet
-          med, eller sponsoreret, godkendt eller tildelt officiel status af,
-          licensgiveren eller andre udpegede til at modtage attribution som
-          angivet i afsnit 3(a)(1)(A)(i).
 
-  b. Andre rettigheder.
+               nogen yderligere eller forskellige vilkår eller betingelser, eller
+               anvende nogen Effektive Teknologiske Foranstaltninger på det
+               Licenserede Materiale, hvis det begrænser udøvelsen af de
+               Licenserede Rettigheder af nogen modtager af det Licenserede Materiale.
 
-       1. Moralske rettigheder, såsom retten til integritet, er ikke
-          licenseret under denne offentlige licens, og heller ikke rettigheder til offentlighed,
+
+
+          kan fortolkes som tilladelse til at hævde eller antyde, at Du er, eller at Din
+          brug af det Licenserede Materiale er, forbundet med, eller støttet, godkendt
+          eller givet officiel status af,
+          Licensgiveren eller andre udpegede til at modtage anerkendelse som
+          angivet i Sektion 3(a)(1)(A)(i).
+
+
+
+
+          licenseret under denne Offentlige Licens, ej heller rettigheder til offentliggørelse,
           privatliv og/eller andre lignende personlighedsrettigheder; dog, i
-          det omfang det er muligt, fraskriver licensgiveren sig og/eller indvilliger i ikke at
-          gøre krav på sådanne rettigheder, som licensgiveren har, i det begrænsede
-          omfang, der er nødvendigt for at give dig mulighed for at udøve de licenserede
-          rettigheder, men ikke ellers.
-
-       2. Patent- og varemærkerettigheder er ikke licenseret under denne
-          offentlige licens.
-
-       3. I det omfang det er muligt, fraskriver licensgiveren sig enhver ret til at
-          opkræve royalties fra dig for udøvelsen af de licenserede
-          rettigheder, hvad enten det er direkte eller gennem en
-          opkrævningsorganisation under en frivillig eller fraskrivelig
-          lovbestemt eller obligatorisk licensordning. I alle andre tilfælde
-          forbeholder licensgiveren sig udtrykkeligt enhver ret til at opkræve sådanne
-          royalties.
+          det omfang det er muligt, fraskriver Licensgiveren sig og/eller accepterer ikke at
+          gøre krav på sådanne rettigheder, som den måtte have, i det begrænsede
+          omfang, der er nødvendigt for at tillade Dig at udøve de Licenserede
+          Rettigheder, men ikke ellers.
 
 
-Afsnit 3 -- Licensbetingelser.
+          Offentlige Licens.
 
-Din udøvelse af de licenserede rettigheder er udtrykkeligt underlagt de
+
+          at indsamle royalties fra Dig for udøvelsen af de Licenserede
+          Rettigheder, hvad enten direkte eller gennem et opkrævningsselskab
+          under ethvert frivilligt eller waivbart lovbestemt eller obligatorisk
+          licensordning. I alle andre tilfælde forbeholder Licensgiveren sig udtrykkeligt
+          retten til at indsamle sådanne royalties.
+
+
+
+Sektion 3 -- Licensbetingelser.
+
+Din udøvelse af de Licenserede Rettigheder er udtrykkeligt gjort betinget af
 følgende betingelser.
 
-  a. Attribution.
+  a. Anerkendelse.
 
-       1. Hvis du deler det licenserede materiale (inklusive i modificeret
-          form), skal du:
+       1. Hvis Du deler det Licenserede Materiale (inklusive i modificeret
+          form), skal Du:
 
-            a. beholde følgende, hvis det leveres af licensgiveren
-               med det licenserede materiale:
+            a. bevare følgende, hvis det er leveret af Licensgiveren
+               med det Licenserede Materiale:
 
-                 i. identifikation af skaberen/skaberne af det licenserede
-                    materiale og andre udpegede til at modtage attribution, på enhver
-                    rimelig måde anmodet af licensgiveren (inklusive ved
-                    pseudonym, hvis det er angivet);
+                 i. identifikation af skaberen(e) af det Licenserede
+                    Materiale og andre, der er udpeget til at modtage
+                    anerkendelse, på enhver rimelig måde, som Licensgiveren
+                    anmoder om (inklusive ved pseudonym, hvis
+                    angivet);
 
-                ii. en ophavsretsmeddelelse;
+                ii. en copyright-meddelelse;
 
-               iii. en meddelelse, der henviser til denne offentlige licens;
+               iii. en meddelelse, der henviser til denne Offentlige Licens;
 
-                iv. en meddelelse, der henviser til ansvarsfraskrivelsen for
+                iv. en meddelelse, der henviser til fraskrivelsen af
                     garantier;
 
-                 v. en URI eller hyperlink til det licenserede materiale i det
-                    omfang det er rimeligt praktisk;
+                 v. en URI eller hyperlink til det Licenserede Materiale
+                    i det omfang, det rimeligt kan lade sig gøre;
 
-            b. angive, hvis du har modificeret det licenserede materiale og
-               beholde en angivelse af eventuelle tidligere ændringer; og
+            b. angive, hvis Du har modificeret det Licenserede Materiale og
+               bevare en angivelse af eventuelle tidligere modifikationer; og
 
-            c. angive, at det licenserede materiale er licenseret under denne
-               offentlige licens, og inkludere teksten til, eller URI eller
-               hyperlink til, denne offentlige licens.
+            c. angive, at det Licenserede Materiale er licenseret under denne
+               Offentlige Licens, og inkludere teksten af, eller URI'en eller
+               hyperlinket til denne Offentlige Licens.
 
-       2. Du kan opfylde betingelserne i afsnit 3(a)(1) på enhver
-          rimelig måde baseret på mediet, midlerne og konteksten, hvor du
-          deler det licenserede materiale. For eksempel kan det være
+       2. Du kan opfylde betingelserne i Sektion 3(a)(1) på enhver
+          rimelig måde baseret på det medie, de midler og den kontekst,
+          hvorpå Du deler det Licenserede Materiale. For eksempel kan det være
           rimeligt at opfylde betingelserne ved at give en URI eller
-          hyperlink til en ressource, der inkluderer de krævede
+          et hyperlink til en ressource, som indeholder de krævede
           oplysninger.
 
-       3. Hvis licensgiveren anmoder om det, skal du fjerne enhver af de
-          oplysninger, der kræves af afsnit 3(a)(1)(A), i det omfang det
-          er rimeligt praktisk.
+       3. På anmodning fra Licensgiveren skal Du fjerne enhver af de
+          oplysninger, der kræves af Sektion 3(a)(1)(A), i det omfang det rimeligt
+          kan lade sig gøre.
 
-  b. ShareAlike.
+  b. DelLige.
 
-     Ud over betingelserne i afsnit 3(a), hvis du deler
-     bearbejdet materiale, du producerer, gælder følgende betingelser også.
+     Udover betingelserne i Sektion 3(a), gælder følgende betingelser også,
+     hvis Du deler Tilpasset Materiale, som Du producerer.
 
-       1. Den adapterens licens, du anvender, skal være en Creative Commons
-          licens med de samme licenselementer, denne version eller
-          senere, eller en BY-SA kompatibel licens.
+       1. Den Tilpassers Licens, Du anvender, skal være en Creative Commons
+          licens med de samme Licenselementer, denne version eller en senere,
+          eller en BY-SA Kompatibel Licens.
 
-       2. Du skal inkludere teksten til, eller URI eller hyperlink til,
-          den adapterens licens, du anvender. Du kan opfylde denne betingelse
-          på enhver rimelig måde baseret på mediet, midlerne og konteksten,
-          hvor du deler bearbejdet materiale.
+       2. Du skal inkludere teksten af, eller URI'en eller hyperlinket til,
+          den Tilpassers Licens, Du anvender. Du kan opfylde denne betingelse
+          på enhver rimelig måde baseret på det medie, de midler og den
+          kontekst, hvorpå Du deler Tilpasset Materiale.
 
        3. Du må ikke tilbyde eller pålægge nogen yderligere eller forskellige vilkår
-          eller betingelser på, eller anvende nogen effektive teknologiske
-          foranstaltninger på, bearbejdet materiale, der begrænser udøvelsen af
-          de rettigheder, der gives under den adapterens licens, du anvender.
+          eller betingelser, eller anvende nogen Effektive Teknologiske Foranstaltninger
+          på Tilpasset Materiale, som begrænser udøvelsen af de rettigheder, der
+          er tildelt under den Tilpassers Licens, Du anvender.
 
 
-Afsnit 4 -- Sui generis-database rettigheder.
+Sektion 4 -- Sui Generis Database Rettigheder.
 
-Hvor de licenserede rettigheder inkluderer sui generis-database rettigheder, der
-gælder for din brug af det licenserede materiale:
+Hvor de Licenserede Rettigheder inkluderer Sui Generis Database Rettigheder, som
+gælder for Din brug af det Licenserede Materiale:
 
-  a. for at undgå tvivl, giver afsnit 2(a)(1) dig retten
-     til at udtrække, genbruge, reproducere og dele hele eller en væsentlig
-     del af indholdet i databasen;
+  a. for at undgå tvivl, giver Sektion 2(a)(1) Dig ret til
+     at udtrække, genbruge, gengive og Dele hele eller en væsentlig
+     del af databaseindholdet;
 
-  b. hvis du inkluderer hele eller en væsentlig del af database
-     indholdet i en database, hvor du har sui generis-database
-Rettigheder, og databasen, hvori du har Sui Generis Database Rettigheder (men ikke dens individuelle indhold), er Bearbejdet Materiale,
+  b. hvis Du inkluderer hele eller en væsentlig del af databaseindholdet i en database,
+     hvor Du har Sui Generis Database Rettigheder, så er databasen, hvor Du har
+     Sui Generis Database Rettigheder (men ikke dens individuelle indhold) Tilpasset
+     Materiale,
 
-inklusive med henblik på afsnit 3(b); og  
-c. Du skal overholde betingelserne i afsnit 3(a), hvis du deler hele eller en væsentlig del af indholdet i databasen.
+     herunder for formålet med Sektion 3(b); og
 
-For at undgå tvivl supplerer dette afsnit 4 og erstatter ikke dine forpligtelser under denne offentlige licens, hvor de licenserede rettigheder inkluderer andre ophavsrettigheder og lignende rettigheder.
+  c. Du skal overholde betingelserne i afsnit 3(a), hvis du deler
+     hele eller en væsentlig del af databaseindholdet.
 
-### Afsnit 5 – Ansvarsfraskrivelse og ansvarsbegrænsning.
+For at undgå tvivl supplerer dette afsnit 4 og erstatter ikke
+dine forpligtelser i henhold til denne offentlige licens, hvor de licenserede
+rettigheder inkluderer andre ophavsretlige og lignende rettigheder.
 
-a. MEDMINDRE ANDET ER AFTALT SEPARAT AF LICENSGIVEREN, I DET OMFANG DET ER MULIGT, TILBYDER LICENSGIVEREN DET LICENSEREDE MATERIALE SOM DET ER OG SOM TILGÆNGELIGT OG GIVER INGEN GARANTIER ELLER ERKLÆRINGER AF NOGEN ART VEDRØRENDE DET LICENSEREDE MATERIALE, HVAD ENTEN DET ER UDTRYKKELIGT, UNDERFORSTÅET, LOVBESTEMT ELLER ANDET. DETTE INKLUDERER, MEN ER IKKE BEGRÆNSET TIL, GARANTIER FOR EJERSKAB, SALGBARHED, EGNETHED TIL ET BESTEMT FORMÅL, IKKE-KRÆNKELSE, FRAVÆR AF SKJULTE ELLER ANDRE DEFEKTER, NØJAGTIGHED ELLER TILSTEDEVÆRELSE ELLER FRAVÆR AF FEJL, UANSET OM DE ER KENDTE ELLER KAN OPDAGES. HVOR ANSVARSFRASKRIVELSER IKKE ER TILLADT HELT ELLER DELVIST, KAN DENNE FRASKRIVELSE IKKE GÆLDE FOR DIG.
 
-b. I DET OMFANG DET ER MULIGT, VIL LICENSGIVEREN UNDER INGEN OMSTÆNDIGHEDER VÆRE ANSVARLIG OVER FOR DIG UNDER NOGEN JURIDISK TEORI (INKLUSIVE, MEN IKKE BEGRÆNSET TIL, UAGTSOMHED) ELLER PÅ ANDEN VIS FOR NOGEN DIREKTE, SÆRLIGE, INDIREKTE, HÆNDELIGE, FØLGESKADER, STRAFFENDE, EKSEMPLARISKE ELLER ANDRE TAB, OMKOSTNINGER, UDGIFTER ELLER SKADER, DER OPSTÅR SOM FØLGE AF DENNE OFFENTLIGE LICENS ELLER BRUGEN AF DET LICENSEREDE MATERIALE, SELV HVIS LICENSGIVEREN ER BLEVET OPLYST OM MULIGHEDEN FOR SÅDANNE TAB, OMKOSTNINGER, UDGIFTER ELLER SKADER. HVOR EN BEGRÆNSNING AF ANSVAR IKKE ER TILLADT HELT ELLER DELVIST, KAN DENNE BEGRÆNSNING IKKE GÆLDE FOR DIG.
+Afsnit 5 -- Ansvarsfraskrivelse for garantier og ansvarsbegrænsning.
 
-c. Ansvarsfraskrivelsen og ansvarsbegrænsningen, der er angivet ovenfor, skal fortolkes på en måde, der, i det omfang det er muligt, mest muligt nærmer sig en absolut ansvarsfraskrivelse og fraskrivelse af alt ansvar.
+  a. MEDMINDRE ANDET ER SÆRLIGT ANTVAGT AF LICENSGIVEREN, TIL DEN
+     MULIGE GRAD, TILBYDER LICENSGIVEREN DET LICENSEREDE MATERIALE SOM DET ER
+     OG SOM TILGÆNGELIGT, OG AFGIVER INGEN ERKLÆRINGER ELLER GARANTIER AF
+     NOGEN ART VEDRØRENDE DET LICENSEREDE MATERIALE, HVERKEN UDTRYKKELIGE,
+     UNDERFORSTÅEDE, LOVBESTEMTE ELLER ANDRE. DETTE INDEHOLDER, UDEN BEGRÆNSNING,
+     GARANTIER OM EJERSKAB, SALGBARHED, EGNETHED TIL ET BESTEMT FORMÅL,
+     IKKE-KRÆNKELSE, FRAVÆR AF SKJULTE ELLER ANDRE FEJL,
+     NØJAGTIGHED ELLER TILSTEDEVÆRELSEN ELLER FRAVÆRET AF FEJL, UANSET OM
+     DISSE ER KENDTE ELLER KAN OPDAGES. HVOR GARANTIFRASKRIVELSER IKKE ER
+     TILLADT HELT ELLER DELVIST, KAN DENNE GARANTIFRASKRIVELSE VÆRE UGYLDIG FOR DIG.
 
-### Afsnit 6 – Varighed og ophør.
+  b. I DEN MULIGE GRAD VIL LICENSGIVEREN UNDER INGEN OMSTÆNDIGHEDER VÆRE ANSVARLIG
+     OVER FOR DIG PÅ NOGEN JURIDISK GRUNDLAG (INKLUSIV, UDEN BEGRÆNSNING,
+     UAGTSOMHED) ELLER PÅ ANDEN MÅDE FOR NOGEN DIREKTE, SPECIELLE, INDIREKTE,
+     TILFÆLDIGE, FØLGESKADER, STRAFFENDE, EKSEMPLARISKE ELLER ANDRE TAB,
+     OMKOSTNINGER, UDGIFTER ELLER SKADER, DER OPSTÅR SOM FØLGE AF DENNE OFFENTLIGE LICENS ELLER
+     BRUGEN AF DET LICENSEREDE MATERIALE, SELVOM LICENSGIVEREN ER BLEVET
+     TILKENDEGIVET MULIGHEDEN FOR SÅDANNE TAB, OMKOSTNINGER, UDGIFTER ELLER
+     SKADER. HVOR EN ANSVARSBEGRÆNSNING IKKE ER TILLADT HELT ELLER
+     DELVIST, KAN DENNE ANSVARSBEGRÆNSNING VÆRE UGYLDIG FOR DIG.
 
-a. Denne offentlige licens gælder i den periode, hvor ophavsrettigheder og lignende rettigheder, der er licenseret her, er gældende. Hvis du imidlertid ikke overholder denne offentlige licens, ophører dine rettigheder under denne offentlige licens automatisk.
+  c. Ansvarsfraskrivelsen for garantier og ansvarsbegrænsning givet
+     ovenfor skal fortolkes på en måde, som i den grad det er
+     muligt, nærmer sig en absolut ansvarsfraskrivelse og
+     frafald af alt ansvar.
 
-b. Hvor din ret til at bruge det licenserede materiale er ophørt i henhold til afsnit 6(a), genindtræder den:
 
-1. automatisk fra den dato, hvor overtrædelsen er afhjulpet, forudsat at den afhjælpes inden for 30 dage efter din opdagelse af overtrædelsen; eller  
-2. ved udtrykkelig genindførelse fra licensgiveren.
+Afsnit 6 -- Løbetid og ophør.
 
-For at undgå tvivl påvirker dette afsnit 6(b) ikke nogen rettigheder, som licensgiveren måtte have til at søge retsmidler for dine overtrædelser af denne offentlige licens.
+  a. Denne offentlige licens gælder i løbet af ophavsretslige og
+     lignende rettigheder licenseret her. Hvis du dog ikke overholder
+     denne offentlige licens, ophører dine rettigheder under denne offentlige licens
+     automatisk.
 
-c. For at undgå tvivl kan licensgiveren også tilbyde det licenserede materiale under separate vilkår eller betingelser eller stoppe med at distribuere det licenserede materiale til enhver tid; dette vil dog ikke ophæve denne offentlige licens.
+  b. Hvor din ret til at bruge det licenserede materiale er ophørt i henhold til
+     afsnit 6(a), genoprettes den:
 
-d. Afsnittene 1, 5, 6, 7 og 8 forbliver gældende efter ophør af denne offentlige licens.
+       1. automatisk fra den dato, overtrædelsen afhjælpes, forudsat at
+          det afhjælpes inden for 30 dage efter din opdagelse af
+          overtrædelsen; eller
 
-### Afsnit 7 – Andre vilkår og betingelser.
+       2. ved udtrykkeligt genindtræden fra licensgiveren.
 
-a. Licensgiveren er ikke bundet af yderligere eller forskellige vilkår eller betingelser, som du kommunikerer, medmindre det udtrykkeligt er aftalt.
+     For at undgå tvivl påvirker dette afsnit 6(b) ikke nogen
+     ret licensgiveren måtte have til at søge retsmidler for dine overtrædelser
+     af denne offentlige licens.
 
-b. Eventuelle aftaler, forståelser eller overenskomster vedrørende det licenserede materiale, som ikke er angivet heri, er adskilte fra og uafhængige af vilkårene og betingelserne i denne offentlige licens.
+  c. For at undgå tvivl kan licensgiveren også tilbyde det
+     licenserede materiale under separate vilkår eller betingelser eller stoppe
+     distributionen af det licenserede materiale når som helst; at gøre dette
+     vil dog ikke ophæve denne offentlige licens.
 
-### Afsnit 8 – Fortolkning.
+  d. Afsnit 1, 5, 6, 7 og 8 overlever ophør af denne offentlige
+     licens.
 
-a. For at undgå tvivl reducerer, begrænser, indskrænker eller pålægger denne offentlige licens ikke, og skal ikke fortolkes som at reducere, begrænse, indskrænke eller pålægge betingelser for enhver brug af det licenserede materiale, som lovligt kunne foretages uden tilladelse under denne offentlige licens.
 
-b. I det omfang det er muligt, hvis nogen bestemmelse i denne offentlige licens anses for at være uigennemførlig, skal den automatisk reformeres i det mindst nødvendige omfang for at gøre den gennemførlig. Hvis bestemmelsen ikke kan reformeres, skal den adskilles fra denne offentlige licens uden at påvirke gennemførligheden af de resterende vilkår og betingelser.
+Afsnit 7 -- Andre vilkår og betingelser.
 
-c. Ingen vilkår eller betingelser i denne offentlige licens vil blive frafaldet, og ingen manglende overholdelse vil blive accepteret, medmindre det udtrykkeligt er aftalt af licensgiveren.
+  a. Licensgiveren skal ikke være bundet af yderligere eller anderledes
+     vilkår eller betingelser, som du kommunikerer, medmindre det udtrykkeligt er aftalt.
 
-d. Intet i denne offentlige licens udgør eller kan fortolkes som en begrænsning af eller fraskrivelse af nogen privilegier og immuniteter, der gælder for licensgiveren eller dig, herunder fra de juridiske processer i enhver jurisdiktion eller myndighed.
+  b. Enhver aftale, forståelse eller arrangement vedrørende det
+     licenserede materiale, som ikke er angivet heri, er separat fra og
+     uafhængig af vilkårene og betingelserne i denne offentlige licens.
+
+
+Afsnit 8 -- Fortolkning.
+
+  a. For at undgå tvivl reducerer, begrænser, indskrænker eller pålægger denne offentlige licens ikke,
+     og skal ikke fortolkes som at gøre det, betingelser for nogen brug af det licenserede materiale,
+     som lovligt kunne foretages uden tilladelse under denne offentlige licens.
+
+
+  b. I den mulige grad, hvis en bestemmelse i denne offentlige licens
+     anses for at være uigennemførlig, skal den automatisk omformes til det
+     minimale nødvendige omfang for at gøre den gennemførlig. Hvis bestemmelsen
+     ikke kan omformes, skal den adskilles fra denne offentlige licens
+     uden at påvirke gennemførligheden af de resterende vilkår og
+     betingelser.
+
+  c. Intet vilkår eller betingelse i denne offentlige licens vil blive frafaldet, og
+     ingen undladelse af at overholde vilkår vil blive accepteret, medmindre det udtrykkeligt er aftalt af
+     licensgiveren.
+
+  d. Intet i denne offentlige licens udgør eller kan fortolkes
+     som en begrænsning af eller frafald af privilegier og immuniteter,
+     der gælder for licensgiveren eller dig, herunder over for de juridiske
+     processer i enhver jurisdiktion eller myndighed.
+
 
 =======================================================================
 
-Creative Commons er ikke part i sine offentlige licenser. Ikke desto mindre kan Creative Commons vælge at anvende en af sine offentlige licenser på materiale, det udgiver, og i disse tilfælde vil det blive betragtet som "Licensgiveren." Teksten i Creative Commons offentlige licenser er dedikeret til det offentlige domæne under CC0 Public Domain Dedication. Bortset fra det begrænsede formål at angive, at materiale deles under en Creative Commons offentlig licens eller som ellers tilladt af Creative Commons-politikkerne offentliggjort på creativecommons.org/policies, giver Creative Commons ikke tilladelse til brug af varemærket "Creative Commons" eller noget andet varemærke eller logo tilhørende Creative Commons uden forudgående skriftlig tilladelse, herunder, men ikke begrænset til, i forbindelse med uautoriserede ændringer af nogen af dets offentlige licenser eller andre aftaler, forståelser eller overenskomster vedrørende brugen af licenseret materiale. For at undgå tvivl udgør dette afsnit ikke en del af de offentlige licenser.
+Creative Commons er ikke part i sine offentlige
+licenser. Ikke desto mindre kan Creative Commons vælge at anvende en af
+sine offentlige licenser på materiale, det udgiver, og i disse tilfælde
+betragtes det som "Licensgiver". Teksten i Creative Commons'
+offentlige licenser dedikeres til public domain under CC0 Public
+Domain Dedication. Bortset fra det begrænsede formål at angive, at
+materiale deles under en Creative Commons offentlig licens eller som
+ellers tilladt af Creative Commons-politikkerne publiceret på
+creativecommons.org/policies, autoriserer Creative Commons ikke
+brugen af varemærket "Creative Commons" eller noget andet varemærke eller logo
+forbundet med Creative Commons uden forudgående skriftligt samtykke, herunder,
+uden begrænsning, i forbindelse med uautoriserede ændringer
+til nogen af dets offentlige licenser eller andre arrangementer,
+forståelser eller aftaler om brug af licenseret materiale. For
+at undgå tvivl udgør dette afsnit ikke en del af
+de offentlige licenser.
 
 Creative Commons kan kontaktes på creativecommons.org.
 
 ---
 
-**Ansvarsfraskrivelse**:  
-Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på at sikre nøjagtighed, skal det bemærkes, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os intet ansvar for misforståelser eller fejltolkninger, der måtte opstå som følge af brugen af denne oversættelse.
+<!-- CO-OP TRANSLATOR DISCLAIMER START -->
+**Ansvarsfraskrivelse**:
+Dette dokument er blevet oversat ved hjælp af AI-oversættelsestjenesten [Co-op Translator](https://github.com/Azure/co-op-translator). Selvom vi bestræber os på nøjagtighed, skal du være opmærksom på, at automatiserede oversættelser kan indeholde fejl eller unøjagtigheder. Det originale dokument på dets oprindelige sprog bør betragtes som den autoritative kilde. For kritisk information anbefales professionel menneskelig oversættelse. Vi påtager os intet ansvar for misforståelser eller fejltolkninger, der opstår som følge af brugen af denne oversættelse.
+<!-- CO-OP TRANSLATOR DISCLAIMER END -->
