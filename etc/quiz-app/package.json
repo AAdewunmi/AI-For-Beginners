@@ -22,6 +22,15 @@
     "eslint-plugin-vue": "^10.4.0",
     "vue-template-compiler": "^2.6.11"
   },
+  "overrides": {
+    "postcss": "8.5.12",
+    "@vue/vue-loader-v15": {
+      "loader-utils": "1.4.2"
+    },
+    "vue-style-loader": {
+      "loader-utils": "1.4.2"
+    }
+  },
   "eslintConfig": {
     "root": true,
     "env": {
