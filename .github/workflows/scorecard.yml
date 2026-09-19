@@ -45,7 +45,7 @@ jobs:
           # - you want to enable the Branch-Protection check on a *public* repository, or
           # - you are installing Scorecard on a *private* repository
           # To create the PAT, follow the steps in https://github.com/ossf/scorecard-action?tab=readme-ov-file#authentication-with-fine-grained-pat-optional.
-          # repo_token: ${{ secrets.SCORECARD_TOKEN }}
+          repo_token: ${{ github.token }}
 
           # Public repositories:
           #   - Publish results to OpenSSF REST API for easy access by consumers
@@ -61,7 +61,7 @@ jobs:
       - name: "Upload artifact"
         uses: actions/upload-artifact@97a0fba1372883ab732affbe8f94b823f91727db # v3.pre.node20
         with:
-          name: SARIF file
+          name: results-sarif
           path: results.sarif
           retention-days: 5
 
@@ -71,3 +71,19 @@ jobs:
         uses: github/codeql-action/upload-sarif@cdf488f595d80d6e07e03d4674febd5ab45fa938 # v4.37.9
         with:
           sarif_file: results.sarif
+
+  inspect-sarif:
+    name: Inspect SARIF artifact
+    needs: analysis
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Download SARIF artifact"
+        uses: actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093 # v4.3.0
+        with:
+          name: results-sarif
+
+      - name: "Validate SARIF artifact"
+        run: |
+          ls -la
+          test -f results.sarif
+          file results.sarif
