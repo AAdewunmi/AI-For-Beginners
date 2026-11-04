@@ -30,6 +30,7 @@
     "@vue/vue-loader-v15": {
       "loader-utils": "1.4.2"
     },
+    "websocket-driver": "0.7.5",
     "vue-style-loader": {
       "loader-utils": "1.4.2"
     }
